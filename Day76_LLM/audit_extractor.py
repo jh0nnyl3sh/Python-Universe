@@ -1,8 +1,16 @@
+import os
 from google import genai
 from pydantic import BaseModel, ValidationError
+from dotenv import load_dotenv
 
-# 1- API Configuration (Kopyaladığın Key'i buraya yapıştır)
-API_KEY = "AIzaSyCZwXK1nlQBqiaFQ1KxwZ2hOb9oK23ZJyw"
+# 0. Ortam değişkenlerini (.env dosyasını) sisteme yülke
+load_dotenv()  
+
+# 1- API key'i güvenli bir şekilde çek
+API_KEY = os.getenv("GEMINI_API_KEY")
+
+if not API_KEY:
+    raise ValueError("❌ API_KEY bulunamadı! Lütfen .env dosyanızı kontrol ediniz.")
 
 # Yeni Architecture: Sisteme bağlanmak için Client objesi oluşturuyoruz
 client = genai.Client(api_key=API_KEY)
