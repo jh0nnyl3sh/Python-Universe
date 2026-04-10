@@ -19,9 +19,17 @@ class DatabaseManager:
     
     
     def connect(self):
-        pass
+        try:
+            self.connection = psycopg2.connect(host = self.host, 
+                                               dbname = self.name,
+                                               user = self.user,
+                                               password = self.password,
+                                               port = self.port)
+            print("Connected to the PostgreSQL server.") 
+            
     
-    
+        except psycopg2.Error as e:
+            print(f" Error type : ({e})")
     
     
     def execute_query(self):
