@@ -18,3 +18,6 @@ class OsintScanner:
             return None
     
     
+    def extract_links(self, html_content):
+        soup = BeautifulSoup(html_content, "html.parser")
+        return [a.get("href") for a in soup.find_all("a") if a.get("href")]
