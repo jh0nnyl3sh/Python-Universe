@@ -15,11 +15,17 @@ class OsintScanner:
     def get_html(self):
         """Hedef siteye bağlanır ve HTML kodunu güvenli bir şekilde çeker."""
         try:
-            # İsteği atarken kamuflajımızı (headers) da yolluyoruz
-            response = requests.get(self.target_url, headers=self.headers)
+            # ADVANCED: timeout=10 ekleyerek sonsuz bekleyişi (donmayı) engelliyoruz
+            response = requests.get(self.target_url, headers=self.headers, timeout=10)
+            
+            # Eğer site 404 (Bulunamadı) veya 500 (Sunucu Hatası) verirse bunu da yakala
+            response.raise_for_status() 
+            
             return response.text
-        except:
-            # Site kapalıysa veya internet koparsa sistemin çökmemesi için None dönüyoruz
+            
+        except Exception as e:
+            # Hatanın ne olduğunu (Timeout mu, Bağlantı kopması mı?) ekrana basıyoruz
+            print(f"\n🔴 BAĞLANTI HATASI DETAYI: {e}")
             return None
     
     def extract_links(self, html_content):
