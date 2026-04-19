@@ -1,0 +1,6 @@
+# Tuples () -> Listelerin birebir aynısıdır. indekslenebilir. Ancak
+# Immutable (Değiştirilemez) dır. Değiştirilmemesi gereken veriler için kullanılır
+
+
+# Sets {} -> Matematikteki kümelerdir. içinde aynı veriden iki tane bulunmaz
+# indesk yoktur, sırasızdır. İki küme farkı gibi işlemler yapılır.
