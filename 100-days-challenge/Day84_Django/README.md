@@ -30,4 +30,4 @@ Bu proje, siber güvenlik operasyonları sırasında hedefleri takip etmek, zafi
 Bu araç tamamen etik hackerlık ve eğitim amaçlıdır. İzin alınmamış sistemlerde kullanılması yasal sorumluluk doğurabilir.
 
 ---
-**Developed by [Jhony Lesh](https://github.com/jh0nnyl3sh) | Red Team Student**
+**Developed by [Jh0nnyL3shh](https://github.com/jh0nnyl3sh)**
