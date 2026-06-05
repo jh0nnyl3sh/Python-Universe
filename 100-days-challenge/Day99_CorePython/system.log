@@ -1,0 +1,4 @@
+2026-06-05 23:24:20,874 - INFO - --- Processing Started ---
+2026-06-05 23:24:20,874 - INFO - Processed: test2.txt -> Unknown
+2026-06-05 23:24:20,874 - INFO - Processed: text1.txt -> Unknown
+2026-06-05 23:24:20,875 - INFO - Report saved to classification_report.json
