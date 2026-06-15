@@ -7,5 +7,6 @@ Bu bölümde :
 - Anaconda Nedir?
 - Anaconda Yükelemek
 - Değişkenlere Giriş
+- ASCII Conversion Chart
 
 Konularına değinilmiştir.
