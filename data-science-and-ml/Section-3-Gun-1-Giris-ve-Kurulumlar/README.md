@@ -2,10 +2,9 @@
 
 Bu bölümde : 
 - Bilgisayarlar Nasıl Çalışır ? 
-- Metin Görsel ve Ses
-- Farklı Programlama Alanları
+- Metin Görsel ve Ses Nasıl Oluşturulur ? 
+- Farklı Programlama Alanları Nelerdir ? 
 - Anaconda Nedir?
-- Anaconda Yükelemek
 - Değişkenlere Giriş
 - ASCII Conversion Chart
 
