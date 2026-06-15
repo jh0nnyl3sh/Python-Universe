@@ -7,5 +7,6 @@ Bu bölümde :
 - Anaconda Nedir?
 - Değişkenlere Giriş
 - ASCII Conversion Chart
+- Logic Gate (AND, OR, NOT)
 
 Konularına değinilmiştir.
