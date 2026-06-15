@@ -1,0 +1,71 @@
+# Bu Repo Udemyde Bulunan Atıl Samancıoğlu Hocamızın Python 2026: 100 Günlük Programlama Kampı Kursu Ders Notlarımı İçeririr.
+
+
+# Notlarımın İçeriği
+
+- Section 1: Gün 1: Giriş ve Kurulumlar
+- Section 2: Gün 2: Veri Tipleri
+- Section 3: Gün 3: Index Mantığı ve Koleksiyonlar
+- Section 4: Gün 4: Sözlük ve Diğer Yapılar
+- Section 5: Gün 5: Quiz 1
+- Section 6: Gün 6: Kontroller ve Döngüler
+- Section 7: Gün 7: Döngüler
+- Section 8: Gün 8: Quiz 2
+- Section 9: Gün 9: Fonksiyonlar
+- Section 10: Gün 10: OOP ve Sınıflar
+- Section 11: Gün 11: Quiz 3
+- Section 12: Gün 12 - 13: PyCharm
+- Section 13: Gün 14: Modüller ve Paketler
+- Section 14: Gün 15: Modüller ve Paketler Ödev
+- Section 15: Gün 16: Terminal İşlemleri
+- Section 16: Gün 17: Versiyon Kontrol Sistemleri
+- Section 17: Gün 18: Git İleri Seviye
+- Section 18: Gün 19: GitHub
+- Section 19: Gün 20: GitHub Ödevi
+- Section 20: Gün 21: Turtle
+- Section 21: Gün 22 - 23 - 24: Catch The Turtle
+- Section 22: Gün 25: Catch The Turtle Çözüm
+- Section 23: Gün 26: Tkinter
+- Section 24: Gün 27: BMI Quiz
+- Section 25: Gün 28 - 29: Secret Notes Quiz
+- Section 26: Gün 30: Debugging
+- Section 27: Gün 31: Numpy
+- Section 28: Gün 32 - 33: Pandas
+- Section 29: Gün 34: Excel Quizi
+- Section 30: Gün 35: Matplotlib
+- Section 31: Gün 36: Kaagle Ödev
+- Section 32: Gün 37: İnternet ile Çalışmak
+- Section 33: Gün 38: Threading ve İstek Çeşitleri
+- Section 34: Gün 39: Örnek Uygulamalar
+- Section 35: Gün 40 - 41: Requests Ödevleri
+- Section 36: Gün 42: Web Geliştirmeye Giriş
+- Section 37: Gün 43 - 44: HTML 
+- Section 38: Gün 45: CSS
+- Section 39: Gün 46: Bootstrap
+- Section 40: Gün 47: Front End Ödevi
+- Section 41: Gün 48: Django'ya Giriş
+- Section 42: Gün 49: Routing
+- Section 43: Gün 50: Template ve Jinja
+- Section 44: Gün 51: Jinja Syntax
+- Section 45: Gün 52: SQL
+- Section 46: Gün 53: Modellere Giriş
+- Section 47: Gün 54: Model Devamı
+- Section 48: Gün 55: Tweet App Başlangıcı
+- Section 49: Gün 56: Admin Özellikleri
+- Section 50: Gün 57: Form Çalışmaları
+- Section 51: Gün 58 - 59: Authentication
+- Section 52: Gün 60: Sunucu İşlemleri
+- Section 53: Gün 61 - 71: Django Ödevi
+- Section 54: Gün 72: Python İleri Seviye
+- Section 55: Gün 73: İleri Seviye Decorator ve Quiz
+- Section 56: Gün 74: Testler
+- Section 57: Gün 75: Selenium
+- Section 58: Gün 76: End to End Test Ödev
+- Section 59: Gün 77 - 78: Proje Yönetimi & Algoritma Ödevi
+- Section 60: Gün 79 - 86: Selenium Projesi
+- Section 61: Gün 87: Yapay Zeka ile Yazılım Geliştirme
+- Section 62: Gün 88 - 90: Yapay Zeka Ödevi
+- Section 63: Gün 91 -99: Portföy Projeleri
+- Section 64: Gün 100: Kapanış ve Sonraki Adımlar
+
+Not: Atıl Samancıoğlu'na saygılarımda.
