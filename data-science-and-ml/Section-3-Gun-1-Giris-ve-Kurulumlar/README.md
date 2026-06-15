@@ -8,6 +8,6 @@ Bu bölümde :
 - Değişkenlere Giriş
 - ASCII Conversion Chart
 - Logic Gate (AND, OR, NOT)
-    - Deneme
+
 
 Konularına değinilmiştir.
