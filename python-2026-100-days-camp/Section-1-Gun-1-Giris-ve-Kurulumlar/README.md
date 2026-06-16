@@ -7,7 +7,7 @@
 - PyCharm
 - Anaconda
 - Programlama için ortam kurulumları
-## Değişkenler
+#### Değişkenler
 - Sayısal veya metinsel verileri daha sonra kullanmak üzere hafızada tutmak için saklama işlemidir.
 
 Konuları ele alınmıştır.
