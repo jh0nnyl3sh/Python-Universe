@@ -25,5 +25,13 @@ if we want to use comment line : should write '#' front of the line.
 
 
 #### 2.1. String Metodları
+- name.capitalize()
+- name.upper()
+- name.count()
+- name.endswith()
+- name.find()
+- help(name.find)
 
-
+- escape characters
+    - \n -> new line
+    - \t -> tab
