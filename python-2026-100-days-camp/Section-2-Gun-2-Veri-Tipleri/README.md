@@ -4,7 +4,7 @@
 Bu bölümde aşağıdaki konular ele alınmıştır.
 We study below topics in this part.
 
-#### 1. Numaralar - Numbers
+## 1. Numaralar - Numbers
 if we want to use comment line : should write '#' front of the line.  
 
 
@@ -18,7 +18,7 @@ if we want to use comment line : should write '#' front of the line.
     - pi = 3.14
     - type(pi) -> float
 
-#### 2. String
+## 2. String
 #### 2.1. String Metodları
 
 
