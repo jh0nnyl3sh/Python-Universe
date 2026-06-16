@@ -11,10 +11,12 @@ if we want to use comment line : should write '#' front of the line.
 #### 1.1. Int vs Float
 int -> integer
 a = 60
+type(a) -> int
 
 
 float -> floatin point
 pi = 3.14
+type(pi) -> float
 
 #### 2. String
 #### 2.1. String Metodları
