@@ -8,6 +8,6 @@
 - Anaconda
 - Programlama için ortam kurulumları
 #### Değişkenler
-- Sayısal veya metinsel verileri daha sonra kullanmak üzere hafızada tutmak için saklama işlemidir.
+- Sayısal veya metinsel verileri daha sonra kullanmak üzere hafızada (RAM üzerinde) tutmak için saklama işlemidir.
 
-Konuları ele alınmıştır.
+-> Konuları ele alınmıştır.
