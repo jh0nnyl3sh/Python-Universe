@@ -1,10 +1,22 @@
 # Section 2: Gün 2: Veri Tipleri
- Bu bölümde aşağıdaki konular ele alınmıştır.
+# Day 2: Data Type
+
+Bu bölümde aşağıdaki konular ele alınmıştır.
+We study below topics in this part.
+
+#### 1. Numaralar - Numbers
+if we want to use comment line : should write '#' front of the line.  
 
 
-#### 1. Numaralar
-#### 2. Int vs Float
-#### 3. String
-#### 4. String Metodları
+#### 1.1. Int vs Float
+int -> integer
+a = 60
+
+
+float -> floatin point
+pi = 3.14
+
+#### 2. String
+#### 2.1. String Metodları
 
 
