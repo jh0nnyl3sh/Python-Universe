@@ -19,6 +19,11 @@ if we want to use comment line : should write '#' front of the line.
     - type(pi) -> float
 
 ## 2. String
+- str -> string
+    - name = "John"
+    - type(name) -> str
+
+
 #### 2.1. String Metodları
 
 
