@@ -30,14 +30,26 @@ print(barkod[4:8])  # 1234
 
 
 # Liste Nedir ?
-# Liste, birden fazla öğeyi tek bir değişkende saklamamıza
-# olanak tanıyan bir veri yapısıdır.
-# Python'da listeler köşeli parantez [] içinde tanımlanır ve
-# öğeler virgülle ayrılır.
+"""
+- Listeler (Python'da lists), birden fazla veriyi bir arada saklayabilen,
+sıralı ve değiştirilebilir veri yapılarıdır.
+- Listeler, aynı türden veya farklı türlerden öğeler barındırabilirler.
+- Listeler değiştirilebilir (mutable)dir.
+
+"""
+
 
 myList = [1, 2, 3, 4, 5]
 print(myList)
 print(type(myList))
+
+
+myList.sort() # -> sıralama işlemi yapar
+myList.append(6) # -> listeye yeni bir eleman ekler
+myList.insert(0, 0) # -> belirli bir konuma yeni bir eleman
+myList.remove(3) # -> listeden belirli bir elemanı kaldırır
+myList.pop() # -> listeden son elemanı kaldırır
+myList.clear() # -> listeden tüm elemanları kaldırır
 
 
 
