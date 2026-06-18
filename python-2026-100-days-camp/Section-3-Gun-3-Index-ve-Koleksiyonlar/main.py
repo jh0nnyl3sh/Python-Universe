@@ -80,6 +80,11 @@ print(result)  # Output: [1, 2, 3, 4, 5, 6]
 result = list1 * 2
 print(result)  # Output: [1, 2, 3, 1, 2, 3]
 
-# İç İçe Listeler
+# İç İçe Listeler (Nested Lists)
+# Bir listenin içinde başka bir liste bulunabilir.
+nested_list = [1, 2, [3, 4], 5]
+print(nested_list[2])  # Output: [3, 4]
+print(nested_list[2][0])  # Output: 3
+
 # Erişim Yöntemleri
 # Dilimleme (Slicing)
