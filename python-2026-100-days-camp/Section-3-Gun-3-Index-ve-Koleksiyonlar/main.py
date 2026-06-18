@@ -87,4 +87,17 @@ print(nested_list[2])  # Output: [3, 4]
 print(nested_list[2][0])  # Output: 3
 
 # Erişim Yöntemleri
+# Liste elemanlarına erişim yöntemleri ve bu elemanların
+# veri tiplerinin nasıl kontrol edileceği üzerine bakalım.
+myList = [1, 2, 3, 4, 5]
+print(myList[0])  # Output: 1
+print(myList[-1])  # Output: 5
+
+mixed_list = [1, "two", 3.0, [4, 5]]
+print(mixed_list[1])  # Output: "two"
+mixed_list1 = [1, 2, 3, 4, 5, [6, 7, 8], 9, 10]
+print(mixed_list1[5][1])  # Output: 7
+
+
+
 # Dilimleme (Slicing)
