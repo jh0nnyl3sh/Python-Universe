@@ -61,4 +61,7 @@ print(type(x)) # -> <class 'str'>
 y = str(x)
 print(type(y)) # -> <class 'str'>
 
-# Daha İleri Seviye Listeler
+# Daha İleri Seviye Listeler 
+# Bu bölümde, programalma dilinde listelerin daha ileri seviye
+# kullanımı ele alınıyor.
+
