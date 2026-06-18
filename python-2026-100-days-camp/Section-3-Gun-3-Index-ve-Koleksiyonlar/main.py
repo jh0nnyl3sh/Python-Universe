@@ -101,3 +101,10 @@ print(mixed_list1[5][1])  # Output: 7
 
 
 # Dilimleme (Slicing)
+# string metodlarındaki dilimleme (slicing) işlemlerini
+# listelerde de kullanabiliri.
+
+myList = [1, 2, 3, 4, 5]
+print(myList[1:4])  # Output: [2, 3, 4]
+print(myList[:3])   # Output: [1, 2, 3]
+print(myList[3:])   # Output: [4, 5]
