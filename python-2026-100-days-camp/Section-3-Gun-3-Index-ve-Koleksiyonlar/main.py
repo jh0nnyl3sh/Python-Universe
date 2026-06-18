@@ -70,6 +70,16 @@ print(type(y)) # -> <class 'str'>
 my_list = [1, 2, 3, 4, 5, "a", "b", "c", 3.14, 2.718]
 
 # Liste İşlemleri
+# Listeler üzerinde toplama ve çarpma işlemleri yapılabilir.
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+# Toplama işlemi
+result = list1 + list2
+print(result)  # Output: [1, 2, 3, 4, 5, 6]
+# Çarpma işlemi
+result = list1 * 2
+print(result)  # Output: [1, 2, 3, 1, 2, 3]
+
 # İç İçe Listeler
 # Erişim Yöntemleri
 # Dilimleme (Slicing)
