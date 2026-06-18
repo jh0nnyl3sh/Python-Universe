@@ -65,3 +65,11 @@ print(type(y)) # -> <class 'str'>
 # Bu bölümde, programalma dilinde listelerin daha ileri seviye
 # kullanımı ele alınıyor.
 
+# Liste oluşturma : Farklı türlerde (string, integer, float, mix) listeler
+# oluşturulabilir.
+my_list = [1, 2, 3, 4, 5, "a", "b", "c", 3.14, 2.718]
+
+# Liste İşlemleri
+# İç İçe Listeler
+# Erişim Yöntemleri
+# Dilimleme (Slicing)
