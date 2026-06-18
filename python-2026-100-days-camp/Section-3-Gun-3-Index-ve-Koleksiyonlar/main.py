@@ -55,4 +55,10 @@ myList.clear() # -> listeden tüm elemanları kaldırır
 
 # Veri Tipi Dönüştürme
 
+x = 10
+print(type(x)) # -> <class 'str'>
+
+y = str(x)
+print(type(y)) # -> <class 'str'>
+
 # Daha İleri Seviye Listeler
