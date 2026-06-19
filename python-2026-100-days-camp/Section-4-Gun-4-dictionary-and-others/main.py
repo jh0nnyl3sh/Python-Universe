@@ -74,3 +74,16 @@ st = set() # boş set oluşturma
 st = {"item1", "item2", "item3"}
 
 # Tuple
+
+# Tuple : Tuple, sıralı ve değiştirilemez (immutable) vir veri yapısıdır.
+# İçerdiği elemanların sırası önemlidir ve bir kez tanımlandıktan sonra
+# elemanları değiştirilemez.
+
+
+
+# syntax
+empty_tuple = () # boş tuple oluşturma
+
+empty_tuple = tuple() # boş tuple oluşturma
+
+tpl = ("item1", "item2", "item3") # tuple oluşturma
