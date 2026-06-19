@@ -87,3 +87,13 @@ empty_tuple = () # boş tuple oluşturma
 empty_tuple = tuple() # boş tuple oluşturma
 
 tpl = ("item1", "item2", "item3") # tuple oluşturma
+
+
+# Bool
+# Bool, True veya False değerlerini alabilen bir veri türüdür.
+# Bool, genellikle koşullu ifadelerde ve mantıksal işlemlerde kullanılır.
+
+# syntax
+is_true = True
+is_false = False
+
