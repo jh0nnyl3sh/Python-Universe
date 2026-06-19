@@ -66,3 +66,10 @@ print(person["address"]) # {'street': '123 Main St', 'city': 'New York', 'state'
 # Setlerin elemanlarının sırası önemli değildir ve indeskleme yoktur.
 # Setler, örneğin bir e-ticaret uygulamasında farklı ülkelere yapılan
 # satışların sayısını belirlemek için kullanılabilir.
+
+# syntax
+st = set() # boş set oluşturma
+
+# Example
+st = {"item1", "item2", "item3"}
+
