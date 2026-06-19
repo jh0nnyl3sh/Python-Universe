@@ -73,3 +73,4 @@ st = set() # boş set oluşturma
 # Example
 st = {"item1", "item2", "item3"}
 
+# Tuple
