@@ -27,3 +27,11 @@ person = {
         "zip_code": "10001"
     }
 }
+
+# Accessing dictionary items
+# We can access Dictionary items by referring to its key name.
+# syntax
+dct = {"key1": "value1", "key2": "value2", "key3": "value3"}
+print(dct["key1"]) # value1
+print(dct["key2"]) # value2
+
