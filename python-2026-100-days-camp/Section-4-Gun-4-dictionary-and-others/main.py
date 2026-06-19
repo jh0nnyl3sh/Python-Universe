@@ -58,3 +58,11 @@ print(person["country"]) # USA
 print(person["is_married"]) # True
 print(person["skills"]) # ['Python', 'JavaScript', 'C++']
 print(person["address"]) # {'street': '123 Main St', 'city': 'New York', 'state': 'NY', 'zip_code': '10001'} 
+
+
+# Set
+# Set, benzersiz (unique) elemanlar içeren ve sırasız (unordered)
+# bir koleksiyon yapısıdır. Her elaman sadece yalnızca bir tane bulunur.
+# Setlerin elemanlarının sırası önemli değildir ve indeskleme yoktur.
+# Setler, örneğin bir e-ticaret uygulamasında farklı ülkelere yapılan
+# satışların sayısını belirlemek için kullanılabilir.
