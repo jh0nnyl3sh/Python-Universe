@@ -33,27 +33,27 @@ my_last_string = "Afyonkarahisarlilastiramadiklarimizdanmisiniz"
 # cevap
 # 1. Yol : 
 my_list1 = [1, 3, "a"]
-print(type(my_list1))
+# print(type(my_list1))
 # 2. Yol :
 my_list2 = list((1, 3, "a"))
-print(type(my_list2))
+# print(type(my_list2))
 # 3. Yol: 
 my_list3 = []
 my_list3.append(1)
 my_list3.append(3)
 my_list3.append("a")
-print(type(my_list3))
+# print(type(my_list3))
 # 4. Yol:
 my_list4 = list()
 my_list4.append(1)
 my_list4.append(3)
 my_list4.append("a")
-print(type(my_list4))
+# print(type(my_list4))
 # 5. Yol:
 my_list5 = [1]
 my_list5.append(3)
 my_list5.append("a")
-print(type(my_list5))
+# print(type(my_list5))
 
 
 
@@ -61,8 +61,7 @@ print(type(my_list5))
 # 7) Asagidaki "b"'yi tek satirda aliniz:
 my_list = [3.14,4,[2,3,"b"],True]
 #cevap
-#cevap
-#cevap
+print(my_list[2][2])
 
 
 # 8) Asagidaki "a"'yi tek satirda aliniz:
