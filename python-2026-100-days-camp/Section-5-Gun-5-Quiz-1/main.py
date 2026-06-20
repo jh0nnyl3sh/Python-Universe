@@ -73,13 +73,14 @@ my_dictionary = {"key1":20.25, "kk2":[40,{"k21":"a"}]}
 my_list_to_be_set = [3,4,9,3,21,22,4,3,9,10,21,22]
 # cevap
 my_set = set(my_list_to_be_set)
-print(my_set)
+# print(my_set)
 
 # 10) Asagidaki ifadenin sonucu ne olacaktir?
 x = 30 * 5 + 3
 y = 108 - 2 * 4
 x > y
 
-#cevap
-#cevap
-#cevap
+# cevap
+print(x)
+print(y)
+print(x > y)
