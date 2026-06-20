@@ -14,14 +14,13 @@ my_new_string = "ProgramlamayaMerhabaDedik"
 # 3) Asagidaki String'i kod ile tersten yazin
 my_last_string = "Afyonkarahisarlilastiramadiklarimizdanmisiniz"
 # cevap
-reversed_string = my_last_string[::-1]
-print(reversed_string)
+# reversed_string = my_last_string[::-1]
+# print(reversed_string)
 
 # 4) Asagidaki islemin sonucu hangi veri tipinde olacaktir?
 4 + 12.2 + 48
-
-#cevap
-#cevap
+# cevap
+print(type(4 + 12.2 + 48))
 
 
 # 5) Asagidaki islemin sonucu kactir?
