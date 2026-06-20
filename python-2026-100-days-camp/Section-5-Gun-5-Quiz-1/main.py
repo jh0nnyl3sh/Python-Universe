@@ -1,7 +1,9 @@
 # 1) Asagidaki string'in 5. harfini bir degiskene atayiniz
 my_string = "Python Ogreniyorum"
 #cevap
+new_string = my_string[4]
 #cevap
+print(f"String'in 5. harfi: '{new_string}' dur.")
 
 
 # 2) Asagidaki String'in 5. ve 8. karakteri arasindaki tum harflerini yazdiriniz (5 ve 8 dahil)
