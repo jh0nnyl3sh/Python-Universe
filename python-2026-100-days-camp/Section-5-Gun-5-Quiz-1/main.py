@@ -67,13 +67,13 @@ my_list = [3.14,4,[2,3,"b"],True]
 # 8) Asagidaki "a"'yi tek satirda aliniz:
 my_dictionary = {"key1":20.25, "kk2":[40,{"k21":"a"}]}
 # cevap
-print(my_dictionary["kk2"][1]["k21"])
+# print(my_dictionary["kk2"][1]["k21"])
 
 # 9) Asagidaki liste set'e cevirilince hangi degerler icinde kalacaktir?
 my_list_to_be_set = [3,4,9,3,21,22,4,3,9,10,21,22]
-#cevap
-#cevap
-
+# cevap
+my_set = set(my_list_to_be_set)
+print(my_set)
 
 # 10) Asagidaki ifadenin sonucu ne olacaktir?
 x = 30 * 5 + 3
