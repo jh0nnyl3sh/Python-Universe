@@ -20,14 +20,13 @@ my_last_string = "Afyonkarahisarlilastiramadiklarimizdanmisiniz"
 # 4) Asagidaki islemin sonucu hangi veri tipinde olacaktir?
 4 + 12.2 + 48
 # cevap
-print(type(4 + 12.2 + 48))
+# print(type(4 + 12.2 + 48))
 
 
 # 5) Asagidaki islemin sonucu kactir?
 5 + 7 * 12
-
-#cevap
-#cevap
+# cevap
+print(5 + 7 * 12)
 
 
 # 6) Bu listeyi en az 2 farkli yoldan olusturunuz: [1,3,"a"]
