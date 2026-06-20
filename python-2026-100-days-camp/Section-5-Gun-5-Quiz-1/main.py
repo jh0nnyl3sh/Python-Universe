@@ -1,15 +1,14 @@
 # 1) Asagidaki string'in 5. harfini bir degiskene atayiniz
 my_string = "Python Ogreniyorum"
 #cevap
-new_string = my_string[4]
-#cevap
-print(f"String'in 5. harfi: '{new_string}' dur.")
+# new_string = my_string[4]
+# print(f"String'in 5. harfi: '{new_string}' dur.")
 
 
 # 2) Asagidaki String'in 5. ve 8. karakteri arasindaki tum harflerini yazdiriniz (5 ve 8 dahil)
 my_new_string = "ProgramlamayaMerhabaDedik"
 #cevap
-#cevap
+print(my_new_string[4:8])
 
 
 # 3) Asagidaki String'i kod ile tersten yazin
