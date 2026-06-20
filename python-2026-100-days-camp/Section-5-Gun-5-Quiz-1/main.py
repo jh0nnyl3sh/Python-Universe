@@ -60,15 +60,14 @@ my_list5.append("a")
 
 # 7) Asagidaki "b"'yi tek satirda aliniz:
 my_list = [3.14,4,[2,3,"b"],True]
-#cevap
-print(my_list[2][2])
+# cevap
+# print(my_list[2][2])
 
 
 # 8) Asagidaki "a"'yi tek satirda aliniz:
 my_dictionary = {"key1":20.25, "kk2":[40,{"k21":"a"}]}
-#cevap
-#cevap
-
+# cevap
+print(my_dictionary["kk2"][1]["k21"])
 
 # 9) Asagidaki liste set'e cevirilince hangi degerler icinde kalacaktir?
 my_list_to_be_set = [3,4,9,3,21,22,4,3,9,10,21,22]
