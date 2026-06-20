@@ -26,13 +26,36 @@ my_last_string = "Afyonkarahisarlilastiramadiklarimizdanmisiniz"
 # 5) Asagidaki islemin sonucu kactir?
 5 + 7 * 12
 # cevap
-print(5 + 7 * 12)
+# print(5 + 7 * 12)
 
 
 # 6) Bu listeyi en az 2 farkli yoldan olusturunuz: [1,3,"a"]
-#cevap
-#cevap
-#cevap
+# cevap
+# 1. Yol : 
+my_list1 = [1, 3, "a"]
+print(type(my_list1))
+# 2. Yol :
+my_list2 = list((1, 3, "a"))
+print(type(my_list2))
+# 3. Yol: 
+my_list3 = []
+my_list3.append(1)
+my_list3.append(3)
+my_list3.append("a")
+print(type(my_list3))
+# 4. Yol:
+my_list4 = list()
+my_list4.append(1)
+my_list4.append(3)
+my_list4.append("a")
+print(type(my_list4))
+# 5. Yol:
+my_list5 = [1]
+my_list5.append(3)
+my_list5.append("a")
+print(type(my_list5))
+
+
 
 
 # 7) Asagidaki "b"'yi tek satirda aliniz:
