@@ -49,3 +49,32 @@ x > y
 #cevap
 #cevap
 
+# 11) Elimizde user_age = "28" şeklinde tanımlanmış bir string bulunuyor.
+Bu değişkeni bir integer değerine dönüştür, üzerine 5 ekle ve elde ettiğin
+sonucu tekrar string formuna çevirip yeni bir değişkene ata.
+
+# cevap
+
+# 12) my_list = [10, 20, 30, 40, 50, 60, 70] şeklinde bir list tanımlı.
+- Sadece Indexing kullanarak 4. elemanı (40 değerini) çek.
+- Slicing kullanarak bu listenin baştan başlayıp 50 değerine kadar olan
+(50 dahil) elemanlarını içeren lat bir list oluştur.
+
+# cevap
+
+# 13) Bir dictionary oluştur. İçinde anahtar kelime olarak "username" (değeri "developer") ve "is_active" (değeri True olan bir boolen) bulundusn.
+Daha sonra bu dictionary içindeki "is_active" değerini False olarak güncelle.
+
+# cevap
+
+
+# 14) data = [1, 2, 2, 3, 4, 4, 5] adlı bir list içerisindeki tekrar eden
+değerleri temizlemek için onu önce bir set yapısına dönüştür. Ardından elde ettiğin bu benzersiz eleman koleksiyonunu değiştirileremez bir tuple
+yapısına çevir.
+
+# cevap 
+
+
+
+
+
