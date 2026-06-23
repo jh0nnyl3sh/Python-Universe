@@ -2,13 +2,10 @@
 
 
 # Bu bölümde; 
-- Büyüktür
-- Küçüktür
-- Büyük Eşit
-- Küçük Eşit
-- Eşit Değil
-- And
-- Or
-- Not
+- Kıyaslama İşlemleri
+- İf Kontrolleri
+- Döngülere Giriş
+- For Döngüsü
+- Break Continue Pass
 
 konuları ele alınmıştır.
