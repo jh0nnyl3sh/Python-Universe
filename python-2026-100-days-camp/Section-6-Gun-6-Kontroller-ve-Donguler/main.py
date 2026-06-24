@@ -1,3 +1,4 @@
+"""
 x = 10
 y = 5
 
@@ -36,3 +37,13 @@ elif 50 <= customer_points <= 99:
 # 50'den küçük ise
 else:
     print("Silver Member")
+    
+
+"""
+
+# Döngüler
+
+mylist = [1,2,3,4,5]
+
+for num in mylist:
+    print(num)
