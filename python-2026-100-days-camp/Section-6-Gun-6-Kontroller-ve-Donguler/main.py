@@ -42,8 +42,31 @@ else:
 """
 
 # Döngüler
-
+"""
 mylist = [1,2,3,4,5]
 
 for num in mylist:
     print(num)
+    
+"""    
+
+"""
+mylist = [10, 20, 30, 40, 50, 60, 70]
+
+print
+print("Lsitemizde 6'ya tam bölünen sayılar : ")
+for num in mylist:
+    if num % 6 == 0:
+        print(num)
+        
+"""
+
+
+
+my_string = "hello world"
+
+for l in my_string:
+    print(l)
+
+    
+
