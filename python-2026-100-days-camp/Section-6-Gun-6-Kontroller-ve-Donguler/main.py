@@ -62,7 +62,7 @@ for num in mylist:
 """
 
 
-
+"""
 my_string = "hello world"
 
 for l in my_string:
@@ -70,3 +70,22 @@ for l in my_string:
 
     
 
+
+my_tuple = (10, 20, 30, 40, 50, 60)
+
+for num in my_tuple:
+    print(num / 5 * 2)
+"""    
+
+    
+my_new_list = [("a","b"),("c","d"),("e","f"),("g","h")]
+
+print(len(my_new_list))
+
+for element in my_new_list:
+    print(element)
+    
+    
+for(x,y) in my_new_list:
+    print(x)
+    print(y)
