@@ -66,7 +66,7 @@ my_dictionary = {"k1":10,"k2k":"a","k32":30,"k4":"c"}
 print("4. Sorunun cevabı : ")
 for letter in my_dictionary.values():
     if letter == "c".lower():
-        print("- Uygun harf bulundu 'C'")
+        print(f"- Uygun harf bulundu {letter}")
     
 
 
@@ -77,6 +77,13 @@ for letter in my_dictionary.values():
 my_other_dictionary = {"b":203,"c":"a","a":400,"d":"f"}
 # cevap
 # cevap
+print("5. Sorunun cevabı: ")
+for l in my_other_dictionary.keys():
+    if l == "a".lower():
+        print(f"- Uygun harf bulundu : {l}")
+
+
+
 #6) Aşağıdaki listedeki sayılardan sadece çift sayı olanları yazdıran bir kod yazınız.
 my_numbers = [1,2,3,4,5,6,19,20,32,21,20,1111,23,24]
 # cevap
