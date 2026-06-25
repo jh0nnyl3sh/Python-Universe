@@ -89,6 +89,15 @@ my_numbers = [1,2,3,4,5,6,19,20,32,21,20,1111,23,24]
 # cevap
 # cevap
 # cevap
+
+print("6. Sorunun cevabı: ")
+for num in my_numbers:
+    if num % 2 == 0:
+        print(f"- {num} sayısı çifttir.")
+
+
+
+
 #7) Aşağıdaki listedeki sayılar bir dairenin yarı çapını vermektedir. 
 #Tüm dairelerin çevresini içeren başka yeni bir liste oluşturunuz. (İpucu: 2 * pi * r)  Pi 3.14 alınabilir.
 r_list = [3,2,5,8,4,6,9,12]
