@@ -46,13 +46,13 @@ else:\nprint("40 yaşından daha büyüksünüz")\n"""
 yas = 20
 
 if yas < 18:
-    print("18 yaşından küçüksünüz")
+    print("3. Sorunun cevabı : 18 yaşından küçüksünüz")
 elif yas >= 18 and yas < 30:
-    print("18 ile 30 yaş arasında bir gençsiniz")
+    print("3. Sorunun cevabı : 18 ile 30 yaş arasında bir gençsiniz")
 elif yas >= 30 and yas < 40:
-    print("30 ve 40 arasına gelmişsiniz")
+    print("3. Sorunun cevabı : 30 ve 40 arasına gelmişsiniz")
 else:
-    print("40 yaşından daha büyüksünüz")
+    print("3. Sorunun cevabı : 40 yaşından daha büyüksünüz")
     
 
 
@@ -63,6 +63,12 @@ else:
 my_dictionary = {"k1":10,"k2k":"a","k32":30,"k4":"c"}
 # cevap
 # cevap
+print("4. Sorunun cevabı : ")
+for letter in my_dictionary.values():
+    if letter == "c".lower():
+        print("- Uygun harf bulundu 'C'")
+    
+
 
 
 
