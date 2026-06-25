@@ -5,6 +5,11 @@ z = 6
 x > y and z > x
 
 # cevap
+print(f"1. Sorunun Cevabı : {x > y and z > x}")
+
+
+
+
 # 2) Aynı değerlerle kod şu şekilde değiştilirse çıktı ne olacaktır?
 x < y or z > y
 
