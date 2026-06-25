@@ -5,7 +5,7 @@ z = 6
 x > y and z > x
 
 # cevap
-print(f"1. Sorunun Cevabı : {x > y and z > x}")
+print(f"1. Sorunun Cevabı : {x > y and z > x}") # True
 
 
 
@@ -14,6 +14,11 @@ print(f"1. Sorunun Cevabı : {x > y and z > x}")
 x < y or z > y
 
 # cevap
+print(f"2. Sorunun cevabı : {x < y or z > y}") # True
+
+
+
+
 # 3) Aşağıdaki kodun çıktısı ne olacaktır?
 '''
 yas = 20
