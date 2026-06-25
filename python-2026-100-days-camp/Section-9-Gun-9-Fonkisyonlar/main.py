@@ -9,3 +9,9 @@ def hello_python(name): # -> define
 hello_python("Ahmet")
 
 
+# örnekler
+
+def sum_example(num1, num2):
+    print(num1 + num2)
+    
+sum_example(5, 10)
