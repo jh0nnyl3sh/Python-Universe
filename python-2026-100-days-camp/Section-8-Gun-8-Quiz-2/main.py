@@ -32,12 +32,41 @@ elif yas >= 30 and yas < 40:
 else:
     print("40 yaşından daha büyüksünüz")
 '''
-'\nyas = 20\n\nif yas < 18:\n    print("18 yaşından küçüksünüz")\nelif yas >= 18 and yas < 30:\n    print("18 ile 30 yaş arasında bir gençsiniz")\nelif yas >= 30 and yas < 40:\n    print("30 ve 40 arasına gelmişsiniz")\nelse:\n    print("40 yaşından daha büyüksünüz")\n'
+"""
+\nyas = 20\n
+\nif yas < 18:
+\n print("18 yaşından küçüksünüz")
+\nelif yas >= 18 and yas < 30:\n
+print("18 ile 30 yaş arasında bir gençsiniz")
+\nelif yas >= 30 and yas < 40:\n
+print("30 ve 40 arasına gelmişsiniz")\n
+else:\nprint("40 yaşından daha büyüksünüz")\n"""
+
 # cevap
+yas = 20
+
+if yas < 18:
+    print("18 yaşından küçüksünüz")
+elif yas >= 18 and yas < 30:
+    print("18 ile 30 yaş arasında bir gençsiniz")
+elif yas >= 30 and yas < 40:
+    print("30 ve 40 arasına gelmişsiniz")
+else:
+    print("40 yaşından daha büyüksünüz")
+    
+
+
+
+
+
 #4) Aşağıdaki sözlükte, değerler içinde c harfinin geçip geçmediğini gösteren bir if koşulu yazınız
 my_dictionary = {"k1":10,"k2k":"a","k32":30,"k4":"c"}
 # cevap
 # cevap
+
+
+
+
 #5) Aşağıdaki sözlükte, anahtarlar içinde a harfinin geçip geçmediğini gösteren bir if koşulu yazınız
 my_other_dictionary = {"b":203,"c":"a","a":400,"d":"f"}
 # cevap
