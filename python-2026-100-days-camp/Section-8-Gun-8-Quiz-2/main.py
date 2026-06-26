@@ -142,8 +142,16 @@ print(age_list)
 #9) Aşağıdaki müzik gruplarından birini rastgele yazdıran bir kod yazınız
 metal_list = ["Metallica","Iron Maiden","Dream Theater","Megadeth","AC/DC"]
 # cevap
-# cevap
-# cevap
+
+import random
+
+y = random.choice(metal_list)
+print(y)
+
+
+
+
+
 #10) Aşağıdaki kodun çıktısı ne olacaktır?
 number_list = [5,7,18,21,20,10,405,24]
 [num % 2 == 0 for num in number_list]
