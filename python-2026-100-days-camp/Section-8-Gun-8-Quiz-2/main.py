@@ -125,8 +125,20 @@ print(type(new_list))
 # Sadece yaşların olduğu yeni ve ayrı bir liste oluşturunuz.
 age_name_list = [("Ahmet",30),("Ayse",24),("Mehmet",40),("Fatma",29)]
 # cevap
-# cevap
-# cevap
+
+print("8. Sorunun cevabı: ")
+
+age_list = []
+
+for (name,age) in age_name_list:
+    age_list.append(age)
+    
+print(age_list)
+    
+
+
+
+
 #9) Aşağıdaki müzik gruplarından birini rastgele yazdıran bir kod yazınız
 metal_list = ["Metallica","Iron Maiden","Dream Theater","Megadeth","AC/DC"]
 # cevap
