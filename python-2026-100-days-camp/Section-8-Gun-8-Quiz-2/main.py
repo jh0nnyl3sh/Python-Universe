@@ -99,11 +99,28 @@ for num in my_numbers:
 
 
 #7) Aşağıdaki listedeki sayılar bir dairenin yarı çapını vermektedir. 
-#Tüm dairelerin çevresini içeren başka yeni bir liste oluşturunuz. (İpucu: 2 * pi * r)  Pi 3.14 alınabilir.
+#Tüm dairelerin çevresini içeren başka yeni bir liste oluşturunuz. 
+# (İpucu: 2 * pi * r)  Pi 3.14 alınabilir.
 r_list = [3,2,5,8,4,6,9,12]
 # cevap
-# cevap
-# cevap
+
+print("7. Sorunun cevabı : ")
+pi = 3.14
+new_list = []
+
+
+for r in r_list:
+    new_list.append(2 * pi * r)
+
+print(new_list)
+print(type(new_list))
+
+
+
+
+
+
+
 #8) Aşağıdaki listede isim - yaş eşleşmelerinin bulunduğu yapılar mevcuttur.
 # Sadece yaşların olduğu yeni ve ayrı bir liste oluşturunuz.
 age_name_list = [("Ahmet",30),("Ayse",24),("Mehmet",40),("Fatma",29)]
