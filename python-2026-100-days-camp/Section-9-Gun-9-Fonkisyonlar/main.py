@@ -31,3 +31,6 @@ for num in myList:
     myResultList.append(divideNumber(num))
 
 print(myResultList)
+
+# map özelliği
+print(list(map(divideNumber,myList)))
