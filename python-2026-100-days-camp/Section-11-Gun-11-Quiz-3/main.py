@@ -19,8 +19,6 @@ usselIslem(2,4) # -> 16 olur
 # 3) Aynı fonksiyonu aşağıdaki gibi çağırırsak çıktı ne olur?
 usselIslem() # -> fonkisyon içinde default değerler olduğu için onu yapar.
 
-"""
-
 
 
 #4) Aşağıdaki kodun çıktısı ne olacaktır?
@@ -32,18 +30,30 @@ myLoop(3,2,1,5,3,4)
 print(type(myLoop)) # function
 # cevap
 # 1.5, 1.0, .... diye bölerek devam eder
+"""
+
+
+
+
+
+#5) Aşağıdaki dizide belirtilen rakamları, myFunction fonksiyonuna tabi tutup, yeni bir dizi oluşturunuz
+def myFunc(num):
+    return num ** 3
+myList = [2,3,4,5,6]
+
+myNewList = []
+
+for n in myList:
+    myNewList.append(myFunc(n)) 
+
+print(myNewList)
 
 
 
 
 
 """
-#5) Aşağıdaki dizide belirtilen rakamları, myFunction fonksiyonuna tabi tutup, yeni bir dizi oluşturunuz
-def myFunc(num):
-    return num ** 3
-myList = [2,3,4,5,6]
-# cevap
-# cevap
+
 #6) Aşağıdaki string dizisinde, içinde sadece XYZ geçen barkodları gösterecek yeni bir liste oluşturunuz
 barkodDizisi = ["ABC231","SA3123XYZ","XYZA123Q","QRE1231KJ","X112QGL"]
 # cevap
