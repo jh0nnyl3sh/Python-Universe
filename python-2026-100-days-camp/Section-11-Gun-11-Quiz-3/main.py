@@ -45,10 +45,6 @@ for n in myList:
 
 print(myNewList)
 
-"""
-
-
-
 
 
 # 6) Aşağıdaki string dizisinde, içinde sadece XYZ geçen barkodları gösterecek yeni bir liste oluşturunuz
@@ -66,9 +62,6 @@ print(newList)
 
 
 
-
-
-"""
 #7) Aşağıdaki kodu okursanız, ornekFonksiyon çalıştırıldığında en altta yazdırılan print size neyi yazdıracaktır?
 myVar = "Atil Samancioglu"
 
@@ -79,8 +72,15 @@ def ornekFonksiyon():
         print(myVar)
     
     digerFonksiyon()
-#ornekFonksiyon()
-# cevap
+ornekFonksiyon()
+"""
+
+
+
+
+
+
+"""
 #8) Aşağıda yazdırılan sınıfı incelediğinizde kedim.yasiCarp() kodunun çıktısı ne olacaktır?
 class Kedi():
         
