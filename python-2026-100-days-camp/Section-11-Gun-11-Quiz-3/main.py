@@ -89,8 +89,6 @@ kedim = Kedi("Tonton")
 print(kedim.yasiCarp()) # 15 olur
 # cevap
 
-"""
-
 
 
 #9) Aşağıdaki kodun çıktısı ne olacaktır?
@@ -108,17 +106,14 @@ print(ogrenci.notuGoster())
 
 # cevap
 
-
-
-
-
-
-
 """
+
+
+
 #10) Soyut sınıflar ve methodlar oluşturmamıza olanak tanıyan, kodlarımızı daha planlı şekilde yazmamızı mümkün kılan
 # aynı zamanda büyük projelerde bize yapısal olarak fayda sağlayabilecek OOP prensibinin adı nedir?
 # cevap
 # abstraction
 
-# OOP -> interseption, polimorphisim, encapsulation, abstraction
-"""
+# OOP -> interseption, polimorphisim, encapsulation, abstracti
+
