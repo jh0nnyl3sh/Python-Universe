@@ -1,24 +1,31 @@
-#1) Aşağıdaki kodun çıktısı ne olacaktır?
+"""
+# 1) Aşağıdaki kodun çıktısı ne olacaktır?
 def toplama(a,b):
     print(a,b)
 
 x = toplama(3,4)
 print("1. Sorunun cevabı: ")
 print(x) # -> None olur.
+"""
+
+
+# 2) Aşağıdaki kodun çıktısı ne olacaktır?
+def usselIslem(x=5,y=3):
+    print(x ** y)
+    
+usselIslem(2,4) # -> 16 olur
+
+
+
 
 
 """
-# cevap
-#2) Aşağıdaki kodun çıktısı ne olacaktır?
-def usselIslem(x=5,y=3):
-    print(x ** y)
-usselIslem(2,4)
-
-# cevap
 #3) Aynı fonksiyonu aşağıdaki gibi çağırırsak çıktı ne olur?
 usselIslem()
 
 # cevap
+
+
 #4) Aşağıdaki kodun çıktısı ne olacaktır?
 def myLoop(*args):
     for element in args:
@@ -26,6 +33,8 @@ def myLoop(*args):
 myLoop(3,2,1,5,3,4)
 
 # cevap
+
+
 #5) Aşağıdaki dizide belirtilen rakamları, myFunction fonksiyonuna tabi tutup, yeni bir dizi oluşturunuz
 def myFunc(num):
     return num ** 3
