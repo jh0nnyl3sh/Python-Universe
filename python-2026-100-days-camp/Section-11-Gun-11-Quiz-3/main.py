@@ -30,13 +30,10 @@ myLoop(3,2,1,5,3,4)
 print(type(myLoop)) # function
 # cevap
 # 1.5, 1.0, .... diye bölerek devam eder
-"""
 
 
 
-
-
-#5) Aşağıdaki dizide belirtilen rakamları, myFunction fonksiyonuna tabi tutup, yeni bir dizi oluşturunuz
+# 5) Aşağıdaki dizide belirtilen rakamları, myFunction fonksiyonuna tabi tutup, yeni bir dizi oluşturunuz
 def myFunc(num):
     return num ** 3
 myList = [2,3,4,5,6]
@@ -48,16 +45,30 @@ for n in myList:
 
 print(myNewList)
 
+"""
+
+
+
+
+
+# 6) Aşağıdaki string dizisinde, içinde sadece XYZ geçen barkodları gösterecek yeni bir liste oluşturunuz
+barkodDizisi = ["ABC231","SA3123XYZ","XYZA123Q","QRE1231KJ","X112QGL"]
+# cevap
+# cevap
+
+newList = []
+
+for barkod in barkodDizisi:
+    if "XYZ" in barkod :
+        newList.append(barkod)
+
+print(newList)
+
 
 
 
 
 """
-
-#6) Aşağıdaki string dizisinde, içinde sadece XYZ geçen barkodları gösterecek yeni bir liste oluşturunuz
-barkodDizisi = ["ABC231","SA3123XYZ","XYZA123Q","QRE1231KJ","X112QGL"]
-# cevap
-# cevap
 #7) Aşağıdaki kodu okursanız, ornekFonksiyon çalıştırıldığında en altta yazdırılan print size neyi yazdıracaktır?
 myVar = "Atil Samancioglu"
 
@@ -95,8 +106,12 @@ ogrenci = Ogrenci("Mehmet",85)
 ogrenci.__sinavNotu = 75
 #ogrenci.notuGoster()
 # cevap
+
+
 #10) Soyut sınıflar ve methodlar oluşturmamıza olanak tanıyan, kodlarımızı daha planlı şekilde yazmamızı mümkün kılan
 # aynı zamanda büyük projelerde bize yapısal olarak fayda sağlayabilecek OOP prensibinin adı nedir?
 # cevap
+# abstraction
 
+# OOP -> interseption, polimorphisim, encapsulation, abstraction
 """
