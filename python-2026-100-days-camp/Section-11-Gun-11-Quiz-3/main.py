@@ -78,9 +78,6 @@ ornekFonksiyon()
 
 
 
-
-
-"""
 #8) Aşağıda yazdırılan sınıfı incelediğinizde kedim.yasiCarp() kodunun çıktısı ne olacaktır?
 class Kedi():
         
@@ -91,8 +88,14 @@ class Kedi():
     def yasiCarp(self):
         return self.yas * 3
 kedim = Kedi("Tonton")
-#kedim.yasiCarp()
+print(kedim.yasiCarp()) # 15 olur
 # cevap
+
+
+
+
+
+"""
 #9) Aşağıdaki kodun çıktısı ne olacaktır?
 class Ogrenci():
     
