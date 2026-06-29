@@ -73,8 +73,6 @@ def ornekFonksiyon():
     
     digerFonksiyon()
 ornekFonksiyon()
-"""
-
 
 
 
@@ -91,11 +89,10 @@ kedim = Kedi("Tonton")
 print(kedim.yasiCarp()) # 15 olur
 # cevap
 
-
-
-
-
 """
+
+
+
 #9) Aşağıdaki kodun çıktısı ne olacaktır?
 class Ogrenci():
     
@@ -107,10 +104,17 @@ class Ogrenci():
         print(f"{self.isim} sınav notu: {self.__sinavNotu}")
 ogrenci = Ogrenci("Mehmet",85)
 ogrenci.__sinavNotu = 75
-#ogrenci.notuGoster()
+print(ogrenci.notuGoster())
+
 # cevap
 
 
+
+
+
+
+
+"""
 #10) Soyut sınıflar ve methodlar oluşturmamıza olanak tanıyan, kodlarımızı daha planlı şekilde yazmamızı mümkün kılan
 # aynı zamanda büyük projelerde bize yapısal olarak fayda sağlayabilecek OOP prensibinin adı nedir?
 # cevap
