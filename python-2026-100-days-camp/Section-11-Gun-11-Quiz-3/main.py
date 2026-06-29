@@ -1,11 +1,13 @@
 #1) Aşağıdaki kodun çıktısı ne olacaktır?
 def toplama(a,b):
     print(a,b)
-'''
+
 x = toplama(3,4)
-print(x)
-'''
-'\nx = toplama(3,4)\nprint(x)\n'
+print("1. Sorunun cevabı: ")
+print(x) # -> None olur.
+
+
+"""
 # cevap
 #2) Aşağıdaki kodun çıktısı ne olacaktır?
 def usselIslem(x=5,y=3):
@@ -74,3 +76,5 @@ ogrenci.__sinavNotu = 75
 #10) Soyut sınıflar ve methodlar oluşturmamıza olanak tanıyan, kodlarımızı daha planlı şekilde yazmamızı mümkün kılan
 # aynı zamanda büyük projelerde bize yapısal olarak fayda sağlayabilecek OOP prensibinin adı nedir?
 # cevap
+
+"""
