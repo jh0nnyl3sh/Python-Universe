@@ -1,6 +1,6 @@
 # Section 12: All Practice
 
-Bu bölümde şimdiye kadar olan konuların pratikleri yapılacaktır.
+Bu bölümde şimdiye kadar olan konuların noltarı alınarak pratikleri yapılacaktır.
 
 Konular : 
 1. Veri Tipleri
