@@ -15,6 +15,8 @@ Konular :
 3.1. Dictionary
 
 4. Kontroller ve döngüler
+4.1. If
+
 
 5. döngüler
 
