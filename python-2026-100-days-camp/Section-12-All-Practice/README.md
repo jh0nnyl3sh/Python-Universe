@@ -7,6 +7,7 @@ Konular :
 1.1. Int
 1.2. Float
 1.3. String
+1.4. Bool
 
 2. index mantığı ve koleksiyonlar
 
