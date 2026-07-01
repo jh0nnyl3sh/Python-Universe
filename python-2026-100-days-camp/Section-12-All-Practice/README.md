@@ -16,6 +16,7 @@ Konular :
 
 4. Kontroller ve döngüler
 4.1. If
+4.2. For Döngüsü
 
 
 5. döngüler
