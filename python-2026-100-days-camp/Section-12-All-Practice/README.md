@@ -26,3 +26,4 @@ Konular :
 6.1. Def
 
 7. OOP ve sınıflar
+7.1 Sınıf yapısı : class
