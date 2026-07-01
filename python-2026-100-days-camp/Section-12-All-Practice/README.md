@@ -6,7 +6,7 @@ Konular :
 1. Veri Tipleri
 1.1. Int
 1.2. Float
-
+1.3. String
 
 2. index mantığı ve koleksiyonlar
 
