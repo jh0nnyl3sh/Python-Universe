@@ -12,6 +12,7 @@ Konular :
 2. index mantığı ve koleksiyonlar
 
 3. sözlük ve diğer yapılar
+3.1. Dictionary
 
 4. Kontroller ve döngüler
 
