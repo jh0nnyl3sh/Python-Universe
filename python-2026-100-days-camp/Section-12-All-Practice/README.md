@@ -10,6 +10,7 @@ Konular :
 1.4. Bool
 
 2. index mantığı ve koleksiyonlar
+2.1. Index mantığı, slicing mantığı ve kullanım senaryoları.
 
 3. sözlük ve diğer yapılar
 3.1. Dictionary
