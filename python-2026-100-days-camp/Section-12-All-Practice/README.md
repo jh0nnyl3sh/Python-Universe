@@ -23,5 +23,6 @@ Konular :
 5.1. While döngüsü
 
 6. Fonksiyonlar
+6.1. Def
 
 7. OOP ve sınıflar
