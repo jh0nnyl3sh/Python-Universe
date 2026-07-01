@@ -22,7 +22,8 @@ Konular :
 
 
 5. döngüler
-5.1. While döngüsü
+5.1. While döngüsü : 
+    While döngüsü, bir durum doğru olduğu sürece çalışır. (1=1)
 
 6. Fonksiyonlar
 6.1. Def
