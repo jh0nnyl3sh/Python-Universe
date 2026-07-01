@@ -20,6 +20,7 @@ Konular :
 
 
 5. döngüler
+5.1. While döngüsü
 
 6. Fonksiyonlar
 
