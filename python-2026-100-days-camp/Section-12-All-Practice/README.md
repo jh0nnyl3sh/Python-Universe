@@ -5,6 +5,8 @@ Bu bölümde şimdiye kadar olan konuların pratikleri yapılacaktır.
 Konular : 
 1. Veri Tipleri
 1.1. Int
+1.2. Float
+
 
 2. index mantığı ve koleksiyonlar
 
