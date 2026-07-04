@@ -17,7 +17,7 @@ Konular :
     Sözlükler key ve value ikililier olarak kullanılır.
 
 4. Kontroller ve döngüler
-4.1. If
+4.1. If - Elif - Else
 4.2. For Döngüsü
 
 
