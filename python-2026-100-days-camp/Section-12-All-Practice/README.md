@@ -4,10 +4,10 @@ Bu bölümde şimdiye kadar olan konuların noltarı alınarak pratikleri yapıl
 
 Konular : 
 1. Veri Tipleri
-1.1. Int
-1.2. Float
-1.3. String
-1.4. Bool
+- 1.1. Int
+- 1.2. Float
+- 1.3. String
+- 1.4. Bool
 
 2. index mantığı ve koleksiyonlar
 2.1. Index mantığı, slicing mantığı ve kullanım senaryoları.
@@ -22,7 +22,7 @@ Konular :
 
 
 5. döngüler
-5.1. While döngüsü : 
+- 5.1. While döngüsü : 
     While döngüsü, bir durum doğru olduğu sürece çalışır. (1=1)
 
 6. Fonksiyonlar
