@@ -4,3 +4,6 @@
 2. Paket Çalışma Prensipleri
 3. Paket ve Modül GitHub Link
 4. YouTube Video İndirici
+5. Arka Plan Silici
+6. PDF Çevirici
+7. QR Kod Oluşturucu
