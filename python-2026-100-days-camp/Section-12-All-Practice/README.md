@@ -7,14 +7,14 @@ Konular :
 - Int
 - Float
 - String
-* * Bool
+- Bool
 
 2. index mantığı ve koleksiyonlar
-2.1. Index mantığı, slicing mantığı ve kullanım senaryoları.
+- Index mantığı, slicing mantığı ve kullanım senaryoları.
 
 3. sözlük ve diğer yapılar
-3.1. Dictionary : 
-    Sözlükler key ve value ikililier olarak kullanılır.
+- Dictionary : 
+Sözlükler key ve value ikililier olarak kullanılır.
 
 4. Kontroller ve döngüler
 4.1. If - Elif - Else
