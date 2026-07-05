@@ -17,8 +17,8 @@ Konular :
 Sözlükler key ve value ikililier olarak kullanılır.
 
 4. Kontroller ve döngüler
-4.1. If - Elif - Else
-4.2. For Döngüsü
+- If - Elif - Else
+- For Döngüsü
 
 
 5. döngüler
@@ -26,10 +26,10 @@ Sözlükler key ve value ikililier olarak kullanılır.
     While döngüsü, bir durum doğru olduğu sürece çalışır. (1=1)
 
 6. Fonksiyonlar
-6.1. Def
+- Def
 
 7. OOP ve sınıflar
-7.1 Sınıf yapısı : class
+- Sınıf yapısı : class
 
 
 8. Tüm konuların örnekleri
