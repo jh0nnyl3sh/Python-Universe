@@ -4,10 +4,10 @@ Bu bölümde şimdiye kadar olan konuların noltarı alınarak pratikleri yapıl
 
 Konular : 
 1. Veri Tipleri
-- 1.1. Int
-- 1.2. Float
-- 1.3. String
-- 1.4. Bool
+- Int
+- Float
+- String
+- - Bool
 
 2. index mantığı ve koleksiyonlar
 2.1. Index mantığı, slicing mantığı ve kullanım senaryoları.
