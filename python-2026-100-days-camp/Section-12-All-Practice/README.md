@@ -7,7 +7,7 @@ Konular :
 - Int
 - Float
 - String
-- - Bool
+* Bool
 
 2. index mantığı ve koleksiyonlar
 2.1. Index mantığı, slicing mantığı ve kullanım senaryoları.
