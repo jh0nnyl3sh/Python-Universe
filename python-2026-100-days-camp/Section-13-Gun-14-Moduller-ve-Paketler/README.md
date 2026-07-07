@@ -10,6 +10,8 @@
 - from pytube import YouTube
 
 ## 5. Arka Plan Silici
+- Remove Background
+
 ## 6. PDF Çevirici
 ## 7. QR Kod Oluşturucu
 
