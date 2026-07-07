@@ -10,3 +10,6 @@
 ## 5. Arka Plan Silici
 ## 6. PDF Çevirici
 ## 7. QR Kod Oluşturucu
+
+
+Not : Tüm modülleri sorgulama kiçin PyPi sitesine bakabiliriz.
