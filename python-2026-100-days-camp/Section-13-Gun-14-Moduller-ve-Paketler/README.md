@@ -5,7 +5,11 @@
 - random paketinden randint fonksiyonunu import eder.
 
 ## 2. Paket Çalışma Prensipleri
+- Paketler başka yazılımcıların, python geliştiricilerin binlerce satır kodları bizler için yazarak açık kaynak yayınlamasıdır.
+
 ## 3. Paket ve Modül GitHub Link
+
+
 ## 4. YouTube Video İndirici
 - from pytube import YouTube
 
