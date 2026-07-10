@@ -20,5 +20,9 @@
 ## 6. PDF Çevirici
 ## 7. QR Kod Oluşturucu
 
+## env.
+- python -m venv venv
+- source venv/bin/activate
+
 
 Not : Tüm modülleri sorgulama kiçin PyPi sitesine bakabiliriz.
