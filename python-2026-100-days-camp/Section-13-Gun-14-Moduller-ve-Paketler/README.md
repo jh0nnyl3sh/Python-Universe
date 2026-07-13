@@ -16,6 +16,7 @@
 
 ## 5. Arka Plan Silici
 - Remove Background
+- Fotoğrafların arka planını kaldırır. tamamen siyah yapar.
 
 ## 6. PDF Çevirici
 ## 7. QR Kod Oluşturucu
