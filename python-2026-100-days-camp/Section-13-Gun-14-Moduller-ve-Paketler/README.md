@@ -16,6 +16,7 @@
 
 ## 5. Arka Plan Silici
 - Remove Background
+- remgb
 - Fotoğrafların arka planını kaldırır. tamamen siyah yapar.
 
 ## 6. PDF Çevirici
