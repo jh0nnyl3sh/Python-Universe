@@ -20,6 +20,8 @@
 - Fotoğrafların arka planını kaldırır. tamamen siyah yapar.
 
 ## 6. PDF Çevirici
+- pdf2docx modülünü kullanabiliriz.
+
 ## 7. QR Kod Oluşturucu
 
 ## env.
