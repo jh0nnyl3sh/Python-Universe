@@ -1,1 +1,3 @@
-# pdf2docx modülü kullanılacak
+from pdf2docx import Converter
+
+
