@@ -23,6 +23,7 @@
 - pdf2docx modülünü kullanabiliriz.
 
 ## 7. QR Kod Oluşturucu
+- QR Oluşturucu
 
 ## env.
 - python -m venv venv
