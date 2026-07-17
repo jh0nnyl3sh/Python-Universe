@@ -8,7 +8,7 @@
 - Paketler başka yazılımcıların, python geliştiricilerin binlerce satır kodları bizler için yazarak açık kaynak yayınlamasıdır.
 
 ## 3. Paket ve Modül GitHub Link
-
+- Paketler ve modülleri yüklerken pip komutunu kullanırız.
 
 ## 4. YouTube Video İndirici
 - from pytube import YouTube
