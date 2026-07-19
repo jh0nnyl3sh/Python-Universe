@@ -1,6 +1,7 @@
 # Section 13: Gün: 14 Modüller ve Paketler
 
 ## 1. Moduller nasıl çalışır ? 
+- Örnek Olarak : 
 - from random import randint 
 - random paketinden randint fonksiyonunu import eder.
 
