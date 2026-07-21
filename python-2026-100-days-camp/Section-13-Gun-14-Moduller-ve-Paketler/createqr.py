@@ -4,7 +4,7 @@ import pyqrcode
 import png
 
 
-
+# qr fonksiyonu
 def create_qr_code(data, filename):
     # QR kodu oluştur
     qr = pyqrcode.create(data)
