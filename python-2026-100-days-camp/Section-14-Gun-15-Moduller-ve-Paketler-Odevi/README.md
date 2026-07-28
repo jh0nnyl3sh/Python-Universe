@@ -13,3 +13,5 @@
 4. **Sözlükler (Dictionary) ve Kümeler (Set)** : Sisteme saldıran benzersiz IP adreslerini bulmak için Kümeleri (`Set`) kullanacağız. Hangi IP'nin kaç kez hatalı deneme yaptığını hafızada tutmak için IP'yi "Anahtar" (Key), başarısız deneme sayısını "Değer" (Value) yapan bir sözlük (Dictionary) inşa edeceğiz.
 5. **Kontroller ve Döngüler** : Sİstemin sürekli açık kalmasını ve kullanıcıya bir menü ("1-Logları Oku", "2-Rapor Çıkar", "3-Çıkış") sunmasını sağlamak için while döngüsünü kuracağız.
 6. **İç İçe Akışlar (If / For)** : Log listesini bir for döngüsüyle gezecek ve if şartıyla "Eğer durum FAILED ise ve parola deneme sayısı 3'ten fazlaysa bunu şüpheli olarak işaretle" gibi kurallar yazacaksın.
+
+7. 
