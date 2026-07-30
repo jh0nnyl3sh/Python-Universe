@@ -47,6 +47,24 @@
 
 
 ## 5. Branch Örnekleri
+#Günlük geliştirme sürecinde yeni branch oluşturmak ve branch'ler arasında geçiş yapmak oldukça yaygındır.
+
+**Bash**
+`
+#Mevcut branch'leri listeler
+- `git branch`
+
+#"feature-login" adında yeni bir branch oluşturur
+- `git branch feature-login`
+
+#Oluşturulan "feature-login" branch'ine geçiş yapar
+- `git checkout feature-login`
+
+#TEK ADIMDA: Yeni bir branch oluşturur ve anında o branch'e geçer
+- `git chechout -b feature-payment`
+`
+
+
 ## 6. Merge İşlemleri
 
 
