@@ -8,7 +8,7 @@
 **Bash**
 `
 #Proje dizininde Gti'i başlatır
-- git init`
+- `git init`
 
 
 
@@ -18,10 +18,10 @@
 **Bash**
 `
 #Tüm dosyaları staging area'ya ekler
-- git add .
+- `git add .`
 
 #Değişiklikleri bir mesaj ile birlikte commit eder
-- git commit -m "Initial commit"
+- `git commit -m "Initial commit"`
 `
 
 
