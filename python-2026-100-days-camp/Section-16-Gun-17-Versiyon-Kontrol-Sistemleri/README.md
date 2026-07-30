@@ -42,6 +42,10 @@
 `
 
 ## 4. Branch Nedir?
+#Branch, projenin ana kod tabanından (genellikle `main` veya `master`) bağımsız olarak yeni özellikler geliştirmek veya hata düzeltmeleri yapmak için oluşturulan izole çalışma ortamıdır.
+#Bir branch üzerinden yaptığımız hiçbir değişiklik, siz onaylamayana kadar diğer branch'leri etkilemez. Bu sayede canlı sistemdeki kodu bozmadan güvenle kod yazabilirsiniz.
+
+
 ## 5. Branch Örnekleri
 ## 6. Merge İşlemleri
 
