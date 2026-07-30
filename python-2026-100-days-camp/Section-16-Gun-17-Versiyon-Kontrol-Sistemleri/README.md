@@ -20,8 +20,8 @@ git init`
 #Tüm dosyaları staging area'ya ekler
 git add .
 
-#Değişiklikleri bir mesaj ile birlikte commit eder\n
-git commit -m "Initial commit"
+#Değişiklikleri bir mesaj ile birlikte commit eder
+- git commit -m "Initial commit"
 `
 
 
