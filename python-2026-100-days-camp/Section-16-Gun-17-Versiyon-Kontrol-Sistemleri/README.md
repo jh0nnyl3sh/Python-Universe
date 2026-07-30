@@ -66,5 +66,18 @@
 
 
 ## 6. Merge İşlemleri
+#Farklı bir branch üzerinde yaptığınız geliştirmeler tamamlandığında, bu değişiklikleri ana kod tabanına entegre etemek için `merge` işlemi yapılır.
+
+#Örneğin, `feature-login` isimli branch'te çalıştığınızı ve işinizi bitirdiğinizi varsayalım. 
+
+**Bash**
+`
+#1.Önce değişiklikleri alacağımız hedef (ana) branch'e geçiş yapıyoruz.
+- `git checkout main`
+
+#Üzerinde çalıştığımız branch'i, şu an bulunduğumuz (main) branch ile merge ediyoruz.
+`git merge feature-login`
+
+`
 
 
