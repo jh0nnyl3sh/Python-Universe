@@ -32,13 +32,13 @@
 **Bash**
 `
 #Yeni bir özellik eklendiğinde
-- git commit -m "Add user authentication feature"
+- `git commit -m "Add user authentication feature"`
 
 #Bir hata düzeltildiğinde
-- git commit -m "Fix database connection timeout error"
+- `git commit -m "Fix database connection timeout error"`
 
 #Dokümantasyon güncellendiğinde
-- git commit -m "Update README.md with setup instructions"
+- `git commit -m "Update README.md with setup instructions"`
 `
 
 ## 4. Branch Nedir?
