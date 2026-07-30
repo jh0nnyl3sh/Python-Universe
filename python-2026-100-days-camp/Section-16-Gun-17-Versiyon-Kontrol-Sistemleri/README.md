@@ -5,11 +5,24 @@
 
 
 `bash
-#  Proje dizininde Gti'i başlatır
+#Proje dizininde Gti'i başlatır
 git init`
 
 
 2. İlk Commit
+- Git'te yaptığınız değişiklikleri kaydetme işlemine `commit` denir. Ancak bir dosyayı commit etmeden önce onu `staging area`'ya eklemeniz gerekir. İlk commit, genellikle projenin iskeletinin oluşturulduğu anı temsil ederi.
+
+**Bash**
+`
+#Tüm dosyaları staging area'ya ekler
+git add .
+
+#Değişiklikleri bir mesaj ile birlikte commit eder
+git commit -m "Initial commit"
+`
+
+
+
 3. Commit Örnekleri
 4. Branch Nedir?
 5. Branch Örnekleri
