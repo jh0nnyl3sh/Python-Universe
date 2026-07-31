@@ -60,7 +60,7 @@
 #Oluşturulan "feature-login" branch'ine geçiş yapar
 - `git checkout feature-login`
 - `git switch feature-login`
-- #NOT: checkout commitler arasında gezmek içinde kullanılır.
+- #NOT: checkout commitler arasında gezmek içinde kullanılır. Bu sebeple branch'ler arasında geçiş yaparken `switch` kullanacağız.
 
 #TEK ADIMDA: Yeni bir branch oluşturur ve anında o branch'e geçer
 - `git chechout -b feature-payment`
