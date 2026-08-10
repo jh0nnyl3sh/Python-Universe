@@ -13,7 +13,7 @@
 `git checkout main`
 
 #Diğer branch main üzerine merge edilir.
-`git merge feature-branch`
+- `git merge feature-branch`
 `
 
 # Conflict Çözmek
