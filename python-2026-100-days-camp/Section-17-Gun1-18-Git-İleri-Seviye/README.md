@@ -16,7 +16,7 @@
 - `git merge feature-branch`
 `
 
-# Conflict Çözmek
+# 2.Conflict Çözmek
 
 # Commitler Arası Gezmek
 
