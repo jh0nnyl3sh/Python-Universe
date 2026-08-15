@@ -18,7 +18,7 @@
 
 # 2.Conflict Çözmek
 
-# Commitler Arası Gezmek
+# 3.Commitler Arası Gezmek
 
 # Reset ve Revert
 
