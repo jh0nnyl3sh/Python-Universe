@@ -12,7 +12,7 @@
 #Hangi branch'e entegre edilecekse o branch'e geçiş yapılır.
 - `git checkout main`
 
-#Diğer branch main üzerine merge edilir.
+#Diğer branch main üzerine merge edilir.....
 - `git merge feature-branch`
 `
 
