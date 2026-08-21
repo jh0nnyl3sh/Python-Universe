@@ -21,15 +21,13 @@
 
 - Çözüm Adımları : 
 - 1.Git, `conflict` olan dosyaları `modified` olarak işaretler. Dosyayı açtığında şu işaretçileri görürsün:
-- 
-`
-`Planintext`
+-  `Planintext`
 <<<<<<<< HEAD 
 mevcut bracnh'teki kod
 ========
 Gelen branch'teki (merge edilen) kod
 ->>>>>>>> feature-branch
-`
+
 - 2.Hangi kodun kalması gerektiğine karar ver ve Git işaretçilerini (<<<<<<,========,>>>>>>) manuel olarak sil.
 
 
