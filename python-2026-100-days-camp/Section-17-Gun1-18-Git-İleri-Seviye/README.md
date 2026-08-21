@@ -27,7 +27,7 @@
 mevcut bracnh'teki kod
 ========
 Gelen branch'teki (merge edilen) kod
->>>>>>>> feature-branch
+->>>>>>>> feature-branch
 
 `
 
