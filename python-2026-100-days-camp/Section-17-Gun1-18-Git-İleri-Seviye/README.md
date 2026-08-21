@@ -19,6 +19,18 @@
 ## 2.Conflict Çözmek
 - Aynı dosyanın aynı satırlarında farklı `branch`'lerde değişiklik yapıldığında Git bu durumu otomatik birleştiremez ve bir `conflict` oluşturur.
 
+- Çözüm Adımları : 
+- 1. Git, `conflict` olan dosyaları `modified` olarak işaretler. Dosyayı açtığında şu işaretçileri görürsün:
+- `
+`Planintext`
+<<<<<<<< HEAD 
+mevcut bracnh'teki kod
+========
+Gelen branch'teki (merge edilen) kod
+>>>>>>>> feature-branch
+
+`
+
 
 ## 3.Commitler Arası Gezmek
 
