@@ -17,7 +17,7 @@
 `
 
 ## 2.Conflict Çözmek
-- 
+- Aynı dosyanın aynı satırlarında farklı `branch`'lerde değişiklik yapıldığında Git bu durumu otomatik birleştiremez ve bir `conflict` oluşturur.
 
 
 ## 3.Commitler Arası Gezmek
