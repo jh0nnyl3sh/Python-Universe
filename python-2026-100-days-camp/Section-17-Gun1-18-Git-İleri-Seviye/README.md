@@ -6,7 +6,7 @@
 - **1.Fast-Forward Merge**: Eğer ana `branch`üzerinde hiçbir yeni `commit`yoksa, Git sadece işaretçiyi (pointer) ileri taşır.
 - **2.3-Way Merge**: Her iki `branch`de kendi commit geçmişine sahipse, Git bu iki geçmişi birleştirerek yeni bir `merge commit`oluşturur.
 
-## 1.1.Merge Kullanımı
+### 1.1.Merge Kullanımı
 `
 **Bash**
 #Hangi branch'e entegre edilecekse o branch'e geçiş yapılır.
@@ -16,10 +16,12 @@
 - `git merge feature-branch`
 `
 
-# 2.Conflict Çözmek
+## 2.Conflict Çözmek
+- 
 
-# 3.Commitler Arası Gezmek
 
-# Reset ve Revert
+## 3.Commitler Arası Gezmek
 
-# Stash ve Tag
+## Reset ve Revert
+
+## Stash ve Tag
