@@ -1,10 +1,18 @@
 import turtle
 
 wn = turtle.Screen()
-ahmet = turtle.Turtle()
+wn.bgcolor("lightgreen")
+tess = turtle.Turtle()
 
-ahmet.forward(50)
-ahmet.left(90)
-ahmet.forward(30)
+tess.shape("turtle")
+tess.color("blue")
 
+tess.penup()
+size = 20
+for i in range(30):
+    tess.stamp()
+    size = size + 3
+    tess.forward(size)
+    tess.right(24)
+    
 wn.mainloop()
