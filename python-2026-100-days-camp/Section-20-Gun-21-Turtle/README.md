@@ -2,3 +2,5 @@
 
 - Genel turtle kullanımı
 - Turtle örnekleri
+    - Kare Çizimi
+    - Yıldız Çizimi
