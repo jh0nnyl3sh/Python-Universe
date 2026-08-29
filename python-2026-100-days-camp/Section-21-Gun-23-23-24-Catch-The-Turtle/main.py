@@ -1,10 +1,16 @@
 import turtle
 
-def fxn(x, y):
-    turtle.right(90)
-    turtle.forward(100)
+# turtle shape("turtle")
+t = turtle.Turtle()
 
-turtle.speed(1)
-turtle.forward(100)
-turtle.onclick(fxn)
+t.shape("turtle")
+
+def fxn(x, y):
+    t.right(90)
+    t.forward(100)
+
+t.speed(1)
+t.forward(100)
+t.onclick(fxn)
+
 turtle.done()
