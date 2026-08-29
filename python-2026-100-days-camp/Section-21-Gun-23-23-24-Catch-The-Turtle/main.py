@@ -1,61 +1,93 @@
-import time
-import datetime as dt
 import turtle
+import datetime
+screen = turtle.Screen()
+screen.title('Clock - PythonTurtle.Academy')
+screen.setup(1000,1000)
+screen.setworldcoordinates(-1000,-1000,1000,1000)
+screen.tracer(0,0)
+screen.bgcolor('sky blue')
 
+class clock:
+    def __init__(self,hour,minute,second):
+        self.hour, self.minute, self.second = hour, minute, second
+        self.face = turtle.Turtle()
+        self.hand = turtle.Turtle()
+        self.face.hideturtle()
+        self.hand.hideturtle()
 
-# create a turtle to display time
-t = turtle.Turtle()
+    def draw(self):
+        self.draw_face()
+        self.draw_hand()
+        
+    def draw_face(self):
+        self.face.clear()
+        self.face.up()
+        self.face.goto(0,-700)
+        self.face.pensize(5)
+        self.face.down()
+        self.face.fillcolor('white')
+        self.face.begin_fill()
+        self.face.circle(700)
+        self.face.end_fill()
+        self.face.up()
+        self.face.goto(0,0)
+        self.face.dot(10)
+        self.face.pensize(2)
+        for angle in range(0,360,6):
+            self.face.up()
+            self.face.goto(0,0)
+            self.face.seth(90-angle)
+            self.face.fd(620)
+            self.face.down()
+            self.face.fd(30)
+        self.face.pensize(4)
+        for angle in range(0,360,30):
+            self.face.up()
+            self.face.goto(0,0)
+            self.face.seth(90-angle)
+            self.face.fd(600)
+            self.face.down()
+            self.face.fd(50)
+        
+    def draw_hand(self):    
+        self.hand.clear()       
+        self.hand.up()
+        self.hand.goto(0,0)
+        self.hand.seth(90-self.hour%12*360//12)
+        self.hand.down()
+        self.hand.color('black')
+        self.hand.pensize(6)
+        self.hand.fd(300)
 
-# create a turtle to create rectangle box
-t1 = turtle.Turtle()
+        self.hand.up()
+        self.hand.goto(0,0)
+        self.hand.seth(90-self.minute*6)
+        self.hand.down()
+        self.hand.color('black')
+        self.hand.pensize(4)
+        self.hand.fd(400)
 
-# create screen
-s = turtle.Screen()
+        self.hand.up()
+        self.hand.color('red')
+        self.hand.goto(0,0)
+        self.hand.dot(5)
+        self.hand.seth(90-self.second*6)
+        self.hand.down()
+        self.hand.pensize(2)
+        self.hand.fd(600)
 
-# set background color of the screen
-s.bgcolor("light blue")
+def animate():
+    global c
+    d = datetime.datetime.now()
+    c.hour, c.minute, c.second = d.hour, d.minute, d.second
+    c.draw_hand()
+    screen.update()
+    screen.ontimer(animate,1000)
+    
+d = datetime.datetime.now()
+c = clock(d.hour,d.minute,d.second)
+c.draw_face()
+screen.update()
+animate()
 
-# obtain current hour, minute and second
-# from the system
-sec = dt.datetime.now().second
-min = dt.datetime.now().minute
-hr = dt.datetime.now().hour
-t1.pensize(3)
-t1.color('black')
-t1.penup()
-
-# set the position of turtle
-t1.goto(-20, 0)
-t1.pendown()
-
-# create rectangular box
-for i in range(2):
-    t1.forward(200)
-    t1.left(90)
-    t1.forward(70)
-    t1.left(90)
-
-# hide the turtle
-t1.hideturtle()
-
-while True:
-    t.hideturtle()
-    t.clear()
-    # display the time
-    t.write(str(hr).zfill(2)
-            + ":"+str(min).zfill(2)+":"
-            + str(sec).zfill(2),
-            font=("Arial Narrow", 35, "bold"))
-    time.sleep(1)
-    sec += 1
-
-    if sec == 60:
-        sec = 0
-        min += 1
-
-    if min == 60:
-        min = 0
-        hr += 1
-
-    if hr == 13:
-        hr = 1
+turtle.done()
