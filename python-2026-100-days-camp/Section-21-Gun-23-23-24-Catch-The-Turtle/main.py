@@ -1,10 +1,24 @@
-"""
+
+
+from random import randint, random
 import turtle
+
+
+# Score Board
+score_board = turtle.Turtle()
+score_board.speed(0)
+score_board.color("blue")
+score_board.penup()
+score_board.hideturtle()
+score_board.goto(0, 260)
+score_board.write("Score: 0", align="center", font=("Courier", 24, "normal"))
+
 
 # turtle shape("turtle")
 t = turtle.Turtle()
 
 t.shape("turtle")
+t.penup()  # kalemi kaldır
 
 
 
@@ -16,25 +30,29 @@ t.speed(1)
 t.forward(100)
 t.onclick(fxn)
 
-turtle.done()
-"""
+
+################################
 
 
-import turtle
+tp = turtle.pos()
+tp
+
+for i in range(50):
+    x = randint(-300, 100)
+    y = randint(-100, 100)
+    turtle.teleport(x, y)
+    turtle.pos()
 
 
+#################################
 
-x = turtle.Turtle()
-y = 5 # Kenar sayısı
-z = 50 # kenar uzunluğu
-a = 360.0 / y  # daireyi bölen açı
-x.shape("turtle") # turtle şekli
-
-for i in range(y):
-    x.forward(z) # z kadar ileri git (kenar uzunluğu)
-    x.right(a) # a kadar sağa dön (açı)
-    
 turtle.done()
 
 
 
+# şekli kaplumbağa yap -> YAPILDI
+# kalemi kaldır -> YAPILDI
+# gerisayım koy
+# skor tablosu koy -> 
+# kablumbağanın yeri belirnen sürede sürekli değişecek -> teleport fonksiyonu ile
+# kaplumbağaya tıklayınca skor artacak -> onclick fonksiyonu ile
