@@ -14,6 +14,17 @@ score_board.goto(0, 260)
 score_board.write("Score: 0", align="center", font=("Courier", 24, "normal"))
 
 
+# Countdown
+countdown = turtle.Turtle()
+countdown.speed(0)
+countdown.color("red")
+countdown.penup()
+countdown.hideturtle()
+countdown.goto(0, 220)
+countdown.write("Time: 20", align="center", font=("Courier", 24, "normal"))
+
+
+
 # turtle shape("turtle")
 t = turtle.Turtle()
 
