@@ -4,6 +4,9 @@ from random import randint, random
 import turtle
 
 
+# Screen setup
+
+
 # Score Board
 score_board = turtle.Turtle()
 score_board.speed(0)
@@ -17,7 +20,7 @@ score_board.write("Score: 0", align="center", font=("Courier", 24, "normal"))
 # Countdown
 countdown = turtle.Turtle()
 countdown.speed(0)
-countdown.color("red")
+countdown.color("black")
 countdown.penup()
 countdown.hideturtle()
 countdown.goto(0, 220)
@@ -27,8 +30,11 @@ countdown.write("Time: 20", align="center", font=("Courier", 24, "normal"))
 
 # turtle shape("turtle")
 t = turtle.Turtle()
+screen = turtle.Screen()
+screen.setup(width=600, height=600)
 
-t.shape("turtle")
+
+# t.shape("turtle")
 t.penup()  # kalemi kaldır
 
 
@@ -42,18 +48,18 @@ t.forward(100)
 t.onclick(fxn)
 
 
+
+# Teleport fonkisyonu ile kaplumbağanın yeri belirlenen sürede sürekli değişecek
 ################################
-
-
 tp = turtle.pos()
 tp
 
-for i in range(50):
-    x = randint(-300, 100)
-    y = randint(-100, 100)
+for i in range(20):
+    x = randint(-200, 200)
+    y = randint(-200, 200)
     turtle.teleport(x, y)
     turtle.pos()
-
+    turtle.speed(10)
 
 #################################
 
