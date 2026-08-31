@@ -52,28 +52,38 @@ t.forward(100)
 t.onclick(fxn)
 """
 
+
+SCORE = 0
+
 # onclick fonkisyonu ile turtle skor artıyor
 def increase_score(x, y):
-    global score
-    score += 1
+    global SCORE
+    SCORE += 1
     score_board.clear()
-    score_board.write("Score: {}".format(score), align="center", font=("Courier", 24, "normal"))
+    score_board.write("Score: {}".format(SCORE), align="center", font=("Courier", 24, "normal"))
+
+increase_score(0, 0)
+t.onclick(increase_score)
 
 
 
+TIME_LEFT = 20
 # timer fonkisyonu ile 20 saniye boyunca geri sayım yapacak
 def countdown_timer():
-    global time_left
-    if time_left > 0:
+    global TIME_LEFT
+    if TIME_LEFT > 0:
         countdown.clear()
-        countdown.write("Time: {}".format(time_left), align="center", font=("Courier", 24, "normal"))
-        time_left -= 1
+        countdown.write("Time: {}".format(TIME_LEFT), align="center", font=("Courier", 24, "normal"))
+        TIME_LEFT -= 1
         turtle.ontimer(countdown_timer, 1000)
     else:
         countdown.clear()
         countdown.write("Time's up!", align="center", font=("Courier", 24, "normal"))
         t.hideturtle()  # kaplumbağayı gizle
         turtle.bye()  # pencereyi kapat
+
+countdown_timer()
+
 
 
 
@@ -87,7 +97,7 @@ for i in range(20):
     y = randint(-200, 200)
     turtle.teleport(x, y)
     turtle.pos()
-    turtle.speed(10)
+    turtle.speed(6)
 
 #################################
 
