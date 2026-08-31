@@ -40,6 +40,9 @@ t.penup()  # kalemi kaldır
 
 
 
+# onclick fonkisyonu ile turtle ilerliyor 
+
+"""
 def fxn(x, y):
     t.right(90)
     t.forward(100)
@@ -47,6 +50,30 @@ def fxn(x, y):
 t.speed(1)
 t.forward(100)
 t.onclick(fxn)
+"""
+
+# onclick fonkisyonu ile turtle skor artıyor
+def increase_score(x, y):
+    global score
+    score += 1
+    score_board.clear()
+    score_board.write("Score: {}".format(score), align="center", font=("Courier", 24, "normal"))
+
+
+
+# timer fonkisyonu ile 20 saniye boyunca geri sayım yapacak
+def countdown_timer():
+    global time_left
+    if time_left > 0:
+        countdown.clear()
+        countdown.write("Time: {}".format(time_left), align="center", font=("Courier", 24, "normal"))
+        time_left -= 1
+        turtle.ontimer(countdown_timer, 1000)
+    else:
+        countdown.clear()
+        countdown.write("Time's up!", align="center", font=("Courier", 24, "normal"))
+        t.hideturtle()  # kaplumbağayı gizle
+        turtle.bye()  # pencereyi kapat
 
 
 
