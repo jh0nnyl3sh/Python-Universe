@@ -3,6 +3,7 @@
 from random import randint, random
 import turtle
 
+turtle.shape("turtle")
 
 # Screen setup
 
