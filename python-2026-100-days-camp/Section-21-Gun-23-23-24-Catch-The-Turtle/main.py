@@ -1,9 +1,9 @@
-
-
 from random import randint, random
 import turtle
 
+
 turtle.shape("turtle")
+
 
 # Screen setup
 
@@ -33,29 +33,17 @@ countdown.write("Time: 20", align="center", font=("Courier", 24, "normal"))
 t = turtle.Turtle()
 screen = turtle.Screen()
 screen.setup(width=600, height=600)
+t.screen.bgcolor("lightblue")
+t.speed()
 
 
-# t.shape("turtle")
-t.penup()  # kalemi kaldır
 
 
 
-# onclick fonkisyonu ile turtle ilerliyor 
-
-"""
-def fxn(x, y):
-    t.right(90)
-    t.forward(100)
-
-t.speed(1)
-t.forward(100)
-t.onclick(fxn)
-"""
-
-
-SCORE = 0
 
 # onclick fonkisyonu ile turtle skor artıyor
+SCORE = 0
+
 def increase_score(x, y):
     global SCORE
     SCORE += 1
@@ -92,12 +80,12 @@ countdown_timer()
 tp = turtle.pos()
 tp
 
-for i in range(20):
+for i in range(50):
     x = randint(-200, 200)
     y = randint(-200, 200)
     turtle.teleport(x, y)
     turtle.pos()
-    turtle.speed(6)
+    # turtle.speed(6)
 
 #################################
 
@@ -108,6 +96,6 @@ turtle.done()
 # şekli kaplumbağa yap -> YAPILDI
 # kalemi kaldır -> YAPILDI
 # gerisayım koy
-# skor tablosu koy -> 
+# skor tablosu koy -> Yapıldı
 # kablumbağanın yeri belirnen sürede sürekli değişecek -> teleport fonksiyonu ile
 # kaplumbağaya tıklayınca skor artacak -> onclick fonksiyonu ile
