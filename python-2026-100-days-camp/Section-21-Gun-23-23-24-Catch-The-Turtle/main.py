@@ -77,15 +77,15 @@ countdown_timer()
 
 # Teleport fonkisyonu ile kaplumbağanın yeri belirlenen sürede sürekli değişecek
 ################################
-tp = turtle.pos()
+tp = t.pos()
 tp
 
 for i in range(50):
     x = randint(-200, 200)
     y = randint(-200, 200)
-    turtle.teleport(x, y)
-    turtle.pos()
-    # turtle.speed(6)
+    t.teleport(x, y)
+    t.pos()
+
 
 #################################
 
