@@ -23,8 +23,18 @@ def setup_score_turtle():
     score_turtle.write(arg="Score: 0", move=False, align="center", font=FONT)
 
 
+def make_turtle():
+    t = turtle.Turtle()
+    
+    
+    t.penup()
+    t.shape("turtle")
+    t.shapesize(2,2)
+    
+
+
+make_turtle()
+
 setup_score_turtle()
-
-
 
 turtle.mainloop()
