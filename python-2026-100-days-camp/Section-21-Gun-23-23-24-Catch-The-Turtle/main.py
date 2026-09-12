@@ -23,17 +23,47 @@ def setup_score_turtle():
     score_turtle.write(arg="Score: 0", move=False, align="center", font=FONT)
 
 
-def make_turtle():
+grid_size = 10
+
+def make_turtle(x,y):
     t = turtle.Turtle()
-    
     
     t.penup()
     t.shape("turtle")
     t.shapesize(2,2)
-    
+    t.color("green")
+    t.goto(x * grid_size ,y * grid_size)
 
 
-make_turtle()
+
+make_turtle(-20,20)
+make_turtle(-10,20)
+make_turtle(0,20)
+make_turtle(10,20)
+make_turtle(20,20)
+
+
+make_turtle(-20,10)
+make_turtle(-10,10)
+make_turtle(0,10)
+make_turtle(10,10)
+make_turtle(20,10)
+
+
+make_turtle(-20,0)
+make_turtle(-10,0)
+make_turtle(0,0)
+make_turtle(10,0)
+make_turtle(20,0)
+
+
+make_turtle(-20,-10)
+make_turtle(-10,-10)
+make_turtle(0,-10)
+make_turtle(10,-10)
+make_turtle(20,-10)
+
+
 
 setup_score_turtle()
 
