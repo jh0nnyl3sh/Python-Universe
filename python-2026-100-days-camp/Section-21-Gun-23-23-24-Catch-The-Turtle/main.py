@@ -6,13 +6,17 @@ screen.bgcolor("lightblue")
 screen.title("Catch the Turtle Game")
 FONT = ("Arial", 30, "bold")
 score = 0
-
+game_over = False
 
 #turtle list
 turtle_list = []
 
 #score turtle
 score_turtle = turtle.Turtle()
+
+#countdown turtle
+countdown_turtle = turtle.Turtle()
+
 
 def setup_score_turtle():
     score_turtle.hideturtle()
@@ -73,9 +77,36 @@ def hide_turtles():
 
 # recursice function
 def show_turtles_randomly():
-    random.choice(turtle_list).showturtle()
-    screen.ontimer(show_turtles_randomly, 1000) # -> 1 saniye sonra tekrar çalıştırıyoruz
+    if not game_over:
+        hide_turtles()
+        random.choice(turtle_list).showturtle()
+        screen.ontimer(show_turtles_randomly, 500) # -> 1 saniye sonra tekrar çalıştırıyoruz
     
+
+
+
+def countdown(time):
+    global game_over
+    countdown_turtle.hideturtle()
+    countdown_turtle.color("dark blue")
+    countdown_turtle.penup()
+
+    top_hight = screen.window_height() / 2
+    y = top_hight * 0.8
+    countdown_turtle.setposition(0, y - 30)
+    countdown_turtle.clear()
+    
+    if time > 0:
+        countdown_turtle.clear()
+        countdown_turtle.write(arg=f"Time: {time}", move=False, align="center", font=FONT)
+        screen.ontimer(lambda: countdown(time - 1), 1000)
+    
+    else:
+        game_over = True
+        countdown_turtle.clear()
+        hide_turtles()
+        countdown_turtle.write(arg=f"Time's up! Final Score: {score}", move=False, align="center", font=FONT)
+        
     
 
 
@@ -85,6 +116,7 @@ setup_score_turtle()
 setup_turtles()
 hide_turtles()
 show_turtles_randomly()
+countdown(10)
 turtle.tracer(1) # -> Takip etmeye başlıyoruz
 
 turtle.mainloop()
