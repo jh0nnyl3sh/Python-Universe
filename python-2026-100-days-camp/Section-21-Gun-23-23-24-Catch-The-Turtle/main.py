@@ -3,9 +3,11 @@ import turtle
 screen = turtle.Screen()
 screen.bgcolor("lightblue")
 screen.title("Catch the Turtle Game")
-
-
 FONT = ("Arial", 30, "bold")
+
+
+#turtle list
+turtle_list = []
 
 #score turtle
 score_turtle = turtle.Turtle()
@@ -35,6 +37,7 @@ def make_turtle(x,y):
     t.shapesize(2,2)
     t.color("green")
     t.goto(x * grid_size ,y * grid_size)
+    turtle_list.append(t)
 
 
 
@@ -50,9 +53,17 @@ def setup_turtles():
 
 
 
+def hide_turtles():
+    for t in turtle_list:
+        t.hideturtle()
+
+
+
 turtle.tracer(0) # -> Takip etmeyi bırakıyoruz
 setup_score_turtle()
 setup_turtles()
+hide_turtles()
+
 turtle.tracer(1) # -> Takip etmeye başlıyoruz
 
 turtle.mainloop()
