@@ -50,9 +50,9 @@ def setup_turtles():
 
 
 
-turtle.tracer(0)
+turtle.tracer(0) # -> Takip etmeyi bırakıyoruz
 setup_score_turtle()
 setup_turtles()
-turtle.tracer(1)
+turtle.tracer(1) # -> Takip etmeye başlıyoruz
 
 turtle.mainloop()
