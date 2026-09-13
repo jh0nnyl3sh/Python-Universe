@@ -5,6 +5,7 @@ screen = turtle.Screen()
 screen.bgcolor("lightblue")
 screen.title("Catch the Turtle Game")
 FONT = ("Arial", 30, "bold")
+score = 0
 
 
 #turtle list
@@ -33,6 +34,16 @@ grid_size = 10
 def make_turtle(x,y):
     t = turtle.Turtle()
     
+    
+    def handle_click(x,y):
+        global score
+        score += 1
+        score_turtle.clear()
+        score_turtle.write(arg=f"Score: {score}", move=False, align="center", font=FONT)
+        #print(x, y)
+    
+    
+    t.onclick(handle_click)
     t.penup()
     t.shape("turtle")
     t.shapesize(2,2)
