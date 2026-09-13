@@ -41,12 +41,18 @@ def make_turtle(x,y):
 x_cordinations = [-20, -10, 0, 10, 20]
 y_cordinations = [20, 10, 0, -10]
 
-for x in x_cordinations:
-    for y in y_cordinations:
-        make_turtle(x, y)
+
+def setup_turtles():
+    for x in x_cordinations:
+        for y in y_cordinations:
+            make_turtle(x, y)
 
 
 
+
+turtle.tracer(0)
 setup_score_turtle()
+setup_turtles()
+turtle.tracer(1)
 
 turtle.mainloop()
