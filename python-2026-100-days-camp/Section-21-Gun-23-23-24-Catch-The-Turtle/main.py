@@ -23,6 +23,8 @@ def setup_score_turtle():
     score_turtle.write(arg="Score: 0", move=False, align="center", font=FONT)
 
 
+# Grid size
+
 grid_size = 10
 
 def make_turtle(x,y):
@@ -36,32 +38,12 @@ def make_turtle(x,y):
 
 
 
-make_turtle(-20,20)
-make_turtle(-10,20)
-make_turtle(0,20)
-make_turtle(10,20)
-make_turtle(20,20)
+x_cordinations = [-20, -10, 0, 10, 20]
+y_cordinations = [20, 10, 0, -10]
 
-
-make_turtle(-20,10)
-make_turtle(-10,10)
-make_turtle(0,10)
-make_turtle(10,10)
-make_turtle(20,10)
-
-
-make_turtle(-20,0)
-make_turtle(-10,0)
-make_turtle(0,0)
-make_turtle(10,0)
-make_turtle(20,0)
-
-
-make_turtle(-20,-10)
-make_turtle(-10,-10)
-make_turtle(0,-10)
-make_turtle(10,-10)
-make_turtle(20,-10)
+for x in x_cordinations:
+    for y in y_cordinations:
+        make_turtle(x, y)
 
 
 
