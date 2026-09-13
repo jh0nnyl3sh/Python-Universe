@@ -40,7 +40,7 @@ def make_turtle(x,y):
         score += 1
         score_turtle.clear()
         score_turtle.write(arg=f"Score: {score}", move=False, align="center", font=FONT)
-        #print(x, y)
+
     
     
     t.onclick(handle_click)
@@ -71,9 +71,10 @@ def hide_turtles():
 
 
 
-
+# recursice function
 def show_turtles_randomly():
     random.choice(turtle_list).showturtle()
+    screen.ontimer(show_turtles_randomly, 1000) # -> 1 saniye sonra tekrar çalıştırıyoruz
     
     
 
