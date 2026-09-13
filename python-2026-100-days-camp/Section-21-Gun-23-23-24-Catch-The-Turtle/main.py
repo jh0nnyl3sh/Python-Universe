@@ -1,4 +1,5 @@
-import turtle 
+import turtle
+import random
 
 screen = turtle.Screen()
 screen.bgcolor("lightblue")
@@ -59,11 +60,19 @@ def hide_turtles():
 
 
 
+
+def show_turtles_randomly():
+    random.choice(turtle_list).showturtle()
+    
+    
+
+
+
 turtle.tracer(0) # -> Takip etmeyi bırakıyoruz
 setup_score_turtle()
 setup_turtles()
 hide_turtles()
-
+show_turtles_randomly()
 turtle.tracer(1) # -> Takip etmeye başlıyoruz
 
 turtle.mainloop()
