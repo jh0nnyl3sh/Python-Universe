@@ -5,3 +5,5 @@
 - Hiçbir yapay zeka aracı kullanmadan kodları tamamen sıfırdan yazıyoruz.
 
 - Bizi geliştirmesi için bu yöntemi uyguluyoruz.
+
+- Temel seviye catch the turtle oyunu yaptık.
