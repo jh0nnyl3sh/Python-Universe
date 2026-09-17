@@ -7,3 +7,5 @@
 - Bizi geliştirmesi için bu yöntemi uyguluyoruz.
 
 - Temel seviye catch the turtle oyunu yaptık.
+
+- Oyunu geliştirmek için neler yapabileceğimizi düşünüyoruz.
