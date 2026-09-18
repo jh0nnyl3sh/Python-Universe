@@ -7,3 +7,6 @@ from random import choice
 # list to store scraped data
 all_quotes = []
 
+# this part of the url is constant
+base_url = "http://quotes.toscrape.com/"
+
