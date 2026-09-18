@@ -21,3 +21,13 @@ while url:
     print(f"Now Scraping:{base_url}{url}")
     soup = BeautifulSoup(res.text, "html.parser")
     
+    # extracting all elements
+    quotes = soup.find_all(class_="quote")
+    
+    for quote in quotes:
+        all_quotes.append({
+            "text": quote.find(class_="text").get_text(),
+            "author": quote.find(class_="author").get_text(),
+            "bio-link": quote.find("a")["href"]
+        }) 
+        
